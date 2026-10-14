@@ -24,6 +24,7 @@ export class ControlsScene extends Phaser.Scene {
       text(this, 530, 210 + i * 70, label, { size: 36 });
       text(this, 1390, 210 + i * 70, key, { font: 'head', size: 34, color: CSS.yellow, glow: CSS.yellow, origin: [1, 0] });
     });
+    text(this, GAME_WIDTH / 2, 880, 'Poderes: stamina compartida. Se regenera sola y al conectar golpes.', { size: 18, color: CSS.cyan, origin: [0.5, 0.5] });
     footer(this, 'ESC  VOLVER');
   }
 

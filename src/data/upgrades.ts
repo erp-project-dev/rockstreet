@@ -46,7 +46,7 @@ export const POWERS: PowerDef[] = [
   {
     id: 'feedback',
     name: 'Feedback',
-    desc: 'Explosión de sonido alrededor de Axel.',
+    desc: 'Explosión de sonido a tu alrededor.',
     maxLevel: 5,
     baseCost: 200,
     unlockedByMission: 2,

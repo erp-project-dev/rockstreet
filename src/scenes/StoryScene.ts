@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
 import { CSS, SCENES } from '../config';
-import { ENDING_PAGES, INTRO_PAGES } from '../data/story';
+import { ENDING_PAGES, introPages } from '../data/story';
 import { GameState } from '../systems/GameState';
 import { Input } from '../systems/Input';
 import { MUSIC, Music } from '../systems/Music';
@@ -26,7 +26,7 @@ export class StoryScene extends Phaser.Scene {
 
   init(data: { kind: StoryKind }) {
     this.kind = data.kind ?? 'intro';
-    this.pages = this.kind === 'intro' ? INTRO_PAGES : ENDING_PAGES;
+    this.pages = this.kind === 'intro' ? introPages(GameState.heroName()) : ENDING_PAGES;
     this.page = 0;
   }
 

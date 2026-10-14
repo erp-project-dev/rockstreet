@@ -42,7 +42,7 @@ export interface ActiveHitbox {
   hit: Set<object>;
 }
 
-/** AXEL RIFF. Lee el teclado y gestiona vida, stamina, vidas, combos y poderes. */
+/** El protagonista (nombre elegido por el jugador; por defecto AXEL RIFF). Lee el teclado y gestiona vida, stamina, vidas, combos y poderes. */
 export class Player extends Fighter {
   readonly stats: PlayerStats;
   stamina: number;

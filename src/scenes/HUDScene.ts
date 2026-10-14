@@ -2,9 +2,9 @@ import Phaser from 'phaser';
 import { COLORS, CSS, GAME_HEIGHT, GAME_WIDTH, SCENES } from '../config';
 import { powerIcon } from '../systems/SkillArt';
 import { PLAYER_ART } from '../systems/PlayerArt';
-import { HERO_NAME } from '../data/story';
 import type { PowerId } from '../data/upgrades';
 import { formatMoney, keycap, neonLine, text } from '../ui/ui';
+import { GameState } from '../systems/GameState';
 import type { GameScene } from './GameScene';
 
 const POWER_SLOTS: { id: PowerId; key: string; label: string; color: number }[] = [
@@ -44,11 +44,13 @@ export class HUDScene extends Phaser.Scene {
   private game2!: GameScene;
   private bars!: Phaser.GameObjects.Graphics;
   private hpText!: Phaser.GameObjects.Text;
+  private staminaText!: Phaser.GameObjects.Text;
   private lives!: Phaser.GameObjects.Text;
   private money!: Phaser.GameObjects.Text;
   private boost!: Phaser.GameObjects.Text;
   private slotLabels: Phaser.GameObjects.Text[] = [];
   private powerIcons: Phaser.GameObjects.Image[] = [];
+  private powerStatus: Phaser.GameObjects.Text[] = [];
   private targetName!: Phaser.GameObjects.Text;
   private dashLabel!: Phaser.GameObjects.Text;
   private bossName!: Phaser.GameObjects.Text;
@@ -63,6 +65,7 @@ export class HUDScene extends Phaser.Scene {
     this.game2 = this.scene.get(SCENES.Game) as GameScene;
     this.slotLabels = [];
     this.powerIcons = [];
+    this.powerStatus = [];
 
     const bg = this.add.graphics();
     bg.fillGradientStyle(COLORS.bg, COLORS.bg, COLORS.bg, COLORS.bg, 0.96, 0.96, 0.82, 0.82).fillRect(0, 0, GAME_WIDTH, HUD_H);
@@ -79,10 +82,15 @@ export class HUDScene extends Phaser.Scene {
     portrait.setMask(mask.createGeometryMask());
     bg.lineStyle(3, COLORS.cyan).strokeRoundedRect(PAD, py, PORTRAIT, PORTRAIT, 12);
 
-    text(this, INFO_X, ROW_NAME, HERO_NAME, { font: 'head', size: 24, color: CSS.yellow, glow: CSS.yellow, origin: [0, 0.5] });
+    // Nombre del protagonista (el que eligió el jugador); si es muy ancho se achica para no pisar el DASH.
+    const heroName = text(this, INFO_X, ROW_NAME, GameState.heroName(), { font: 'head', size: 24, color: CSS.yellow, glow: CSS.yellow, origin: [0, 0.5] });
+    const nameW = heroName.width - (heroName.padding.left ?? 0) * 2;
+    const maxNameW = DASH_X - INFO_X - 16;
+    if (nameW > maxNameW) heroName.setScale(maxNameW / nameW);
     this.lives = text(this, INFO_X + BAR_W, ROW_NAME, '', { font: 'head', size: 22, origin: [1, 0.5] });
     this.bars = this.add.graphics();
     this.hpText = text(this, INFO_X + 14, HP_Y + HP_H / 2, '', { size: 20, bold: true, origin: [0, 0.5] });
+    this.staminaText = text(this, INFO_X + BAR_W / 2, ST_Y + ST_H / 2, '', { size: 10, bold: true, origin: [0.5, 0.5] });
     this.targetName = text(this, INFO_X, ROW_TARGET, '', { font: 'head', size: 16, color: CSS.white, origin: [0, 0.5] });
     // Dash (Espacio): etiqueta + mini barra de recarga, entre el nombre y las vidas
     this.dashLabel = text(this, DASH_X, ROW_NAME, 'DASH', { font: 'head', size: 16, origin: [0, 0.5] });
@@ -90,8 +98,9 @@ export class HUDScene extends Phaser.Scene {
     // --- Poderes ---
     POWER_SLOTS.forEach((s, i) => {
       const cx = SLOT_X + i * (SLOT_W + SLOT_GAP) + SLOT_W / 2;
-      this.powerIcons.push(this.add.image(cx, SLOT_Y + 46, powerIcon(s.id)).setDisplaySize(54, 54));
+      this.powerIcons.push(this.add.image(cx, SLOT_Y + 36, powerIcon(s.id)).setDisplaySize(48, 48));
       this.slotLabels.push(text(this, cx, SLOT_Y + SLOT_H - 16, '', { font: 'head', size: 14, origin: [0.5, 0.5] }));
+      this.powerStatus.push(text(this, cx, SLOT_Y + 70, '', { size: 12, bold: true, origin: [0.5, 0.5] }));
       // Tecla del poder en la esquina (keycap)
       const cap = keycap(this, 0, SLOT_Y + 20, s.key, 14, s.color);
       cap.container.setX(SLOT_X + i * (SLOT_W + SLOT_GAP) + 8 + cap.width / 2).setDepth(1);
@@ -131,6 +140,7 @@ export class HUDScene extends Phaser.Scene {
     this.bar(g, HP_Y, HP_H, hpPct, hpPct > 0.3 ? COLORS.red : COLORS.orange);
     this.bar(g, ST_Y, ST_H, p.stamina / p.stats.maxStamina, COLORS.cyan);
     this.hpText.setText(`${Math.ceil(p.hp)} / ${p.stats.maxHp}`);
+    this.staminaText.setText(`STAMINA COMPARTIDA  ${Math.floor(p.stamina)} / ${p.stats.maxStamina}`);
     this.lives.setText(`VIDAS ×${p.lives}`);
     const dashReady = p.dashReady;
     this.dashLabel.setColor(dashReady >= 1 ? CSS.cyan : '#4a4366');
@@ -151,12 +161,20 @@ export class HUDScene extends Phaser.Scene {
       const x = SLOT_X + i * (SLOT_W + SLOT_GAP);
       const locked = p.powerLevel(s.id) === 0;
       const ready = p.canUse(s.id);
+      const cost = p.powerCost(s.id);
+      const missing = Math.max(0, Math.ceil(cost - p.stamina));
+      const status = locked ? 'BLOQUEADO'
+        : !p.alive ? 'SIN VIDA'
+        : missing > 0 ? `FALTAN ${missing} ST`
+        : p.busy ? 'OCUPADO'
+        : `LISTO · ${cost} ST`;
+      this.powerStatus[i].setText(status).setColor(locked ? '#4a4366' : ready ? CSS.cyan : CSS.grey);
       this.powerIcons[i].setAlpha(locked ? 0.18 : ready ? 1 : 0.45);
       if (locked) this.powerIcons[i].setTint(0x777777);
       else this.powerIcons[i].clearTint();
       g.fillStyle(COLORS.bgPanel, 0.9).fillRoundedRect(x, SLOT_Y, SLOT_W, SLOT_H, 12);
       if (!locked) {
-        const fill = Math.min(1, p.stamina / p.powerCost(s.id));
+        const fill = Math.min(1, p.stamina / cost);
         g.fillStyle(s.color, ready ? 0.3 : 0.1).fillRoundedRect(x, SLOT_Y, Math.max(24, SLOT_W * fill), SLOT_H, 12);
         if (ready) g.lineStyle(8, s.color, 0.2).strokeRoundedRect(x, SLOT_Y, SLOT_W, SLOT_H, 12);
       }

@@ -1,6 +1,7 @@
 import { MISSIONS, getMission } from '../data/missions';
 import { POWERS, STATS, upgradeCost, type PowerId, type StatId } from '../data/upgrades';
 import { SaveManager, type SaveData } from './SaveManager';
+import { HERO_NAME } from '../data/story';
 
 /** Estadísticas reales del jugador, derivadas de las mejoras compradas. */
 export interface PlayerStats {
@@ -31,6 +32,11 @@ export const GameState = {
 
   persist(): void {
     if (current) SaveManager.save(current);
+  },
+
+  /** Nombre del protagonista: el que eligió el jugador (o AXEL RIFF en partidas antiguas). */
+  heroName(): string {
+    return (current?.name?.trim() || HERO_NAME).toUpperCase();
   },
 
   stats(): PlayerStats {

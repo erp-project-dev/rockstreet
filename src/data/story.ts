@@ -11,6 +11,7 @@
  * en el Estadio, donde su estrella fabricada, CARLOS PARRILLA, será proclamado rey del rock.
  */
 
+/** Nombre por defecto del protagonista (partidas sin nombre). El jugador elige el suyo al crear la partida. */
 export const HERO_NAME = 'AXEL RIFF';
 export const GUITAR_NAME = 'LA TRUENO';
 export const BAND_NAME = 'LOS VOLTIOS';
@@ -25,14 +26,14 @@ export const GANG_NAME = 'LOS FANÁTICOS';
 export const MAIN_OBJECTIVE = 'Rescata a tu banda y detén la Coronación';
 
 /** Pantallas de la intro, mostradas al empezar una nueva partida. */
-export const INTRO_PAGES: string[] = [
+export const introPages = (hero: string): string[] => [
   'NEON CITY, 1986.\n\nAntes, cada esquina sonaba a rock de verdad. Clubes llenos, amplis al máximo y guitarras con alma.',
   'Hoy la ciudad está invadida por FALSOS GUITARRISTAS.\n\nLlenan estadios, salen en todas las revistas y juran ser las grandes leyendas de la música.',
   'Pero son ídolos con pies de barro.\n\nSu técnica es falsa: limitados, sin lenguaje, sin toque... y ninguno afina el bend.',
   `Detrás de todos está ${VILLAIN_NAME}. Dicen que una vez fue guitarrista, pero se aburrió de tocar. Desde su disquera, DISCOS FACHADA, fabrica estrellas con playback y trucos de estudio, todo conectado a su CONSOLA MAESTRA.`,
   `Un truco no reemplaza al talento. Por eso anoche el Productor secuestró a ${BAND_NAME}: TAMBO en la batería, LOLA en el bajo y KEI en los teclados. Quiere copiar su toque.`,
   `En 10 noches celebrará LA CORONACIÓN en el Estadio. Su estrella fabricada, ${MASTERPIECE_NAME}, será proclamado rey del rock para siempre.`,
-  `Eres ${HERO_NAME}. Tu guitarra, ${GUITAR_NAME}, solo responde a la técnica auténtica, y ningún truco de estudio la puede imitar.\n\nAfina. Sube el volumen. Demuéstrales cómo suena un bend de verdad.`,
+  `Eres ${hero}. Tu guitarra, ${GUITAR_NAME}, solo responde a la técnica auténtica, y ningún truco de estudio la puede imitar.\n\nAfina. Sube el volumen. Demuéstrales cómo suena un bend de verdad.`,
 ];
 
 /** Epílogo tras completar la misión 10. */

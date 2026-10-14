@@ -8,6 +8,8 @@ const KEY_PREFIX = 'rockstreet.save.';
 export interface SaveData {
   version: number;
   slot: number;
+  /** Nombre del jugador (máx. 10 caracteres), elegido al crear la partida. */
+  name: string;
   createdAt: number;
   updatedAt: number;
   money: number;
@@ -22,9 +24,12 @@ export interface SaveData {
   gameFinished: boolean;
 }
 
-export const createSave = (slot: number): SaveData => ({
+export const NAME_MAX = 10;
+
+export const createSave = (slot: number, name = ''): SaveData => ({
   version: SAVE_VERSION,
   slot,
+  name: name.slice(0, NAME_MAX),
   createdAt: Date.now(),
   updatedAt: Date.now(),
   money: 0,
