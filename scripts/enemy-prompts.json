@@ -1,0 +1,24 @@
+{
+  "tool": "image_gen built-in",
+  "initial": [
+    [
+      "punk",
+      "Use case: stylized-concept. Production transparent PNG sprite sheet for RockStreet 1986 side-scrolling beat-em-up, exactly FOUR columns and THREE rows, twelve equally spaced isolated full-body poses. Landscape 4:3. Cinematic painted game illustration matching a blond rock hero, crisp readable silhouette, convincing leather metal and cloth, strong dark outlines. All views face RIGHT, slight three-quarter chest, consistent costume and body size. Every figure fits completely in its own cell with generous transparent gutters, no overlap. Standing height about 65% of cell, soles at 85% height. No floor, shadow, letters, numbers, grid, background or watermark; actual alpha transparency. Subject: adult street punk FANATICO, HUMAN skin not clay, vivid GREEN short mohawk, sleeveless dark plum leather vest with silver studs over torn pale shirt, black ripped jeans, heavy black boots, wristbands and small ear piercing. Lean street brawler, angry determined face, no guitar and no handheld weapon.  Row-major order: ROW1 idle combat stance fists/guitar ready; second idle breathing stance; walk right boot forward; walk passing. ROW2 walk left boot forward; opposite walk passing; windup pulling striking arm/guitar backward visibly; forward punch/guitar strike contact toward RIGHT. ROW3 aggressive forward charging pose; hurt recoiling backward; lying defeated horizontally on back, head LEFT and boots RIGHT; crouched getting up. Exactly twelve complete figures, identity consistent in every frame. "
+    ],
+    [
+      "sid",
+      "Use case: stylized-concept. Production transparent PNG sprite sheet for RockStreet 1986 side-scrolling beat-em-up, exactly FOUR columns and THREE rows, twelve equally spaced isolated full-body poses. Landscape 4:3. Cinematic painted game illustration matching a blond rock hero, crisp readable silhouette, convincing leather metal and cloth, strong dark outlines. All views face RIGHT, slight three-quarter chest, consistent costume and body size. Every figure fits completely in its own cell with generous transparent gutters, no overlap. Standing height about 65% of cell, soles at 85% height. No floor, shadow, letters, numbers, grid, background or watermark; actual alpha transparency. Subject: SID TRES ACORDES, a false punk rock idol made of TERRACOTTA CLAY. Orange-brown clay skin with clearly visible sculpted cracks on face and arms, tall vivid green mohawk, broad athletic physique, black studded leather jacket with green accents, dark trousers and boots, battered dark red electric guitar with black pickguard. Clearly visually distinct from common punk: taller crest, wider shoulders, clay face, always carrying guitar.  Row-major order: ROW1 idle combat stance fists/guitar ready; second idle breathing stance; walk right boot forward; walk passing. ROW2 walk left boot forward; opposite walk passing; windup pulling striking arm/guitar backward visibly; forward punch/guitar strike contact toward RIGHT. ROW3 aggressive forward charging pose; hurt recoiling backward; lying defeated horizontally on back, head LEFT and boots RIGHT; crouched getting up. Exactly twelve complete figures, identity consistent in every frame.  Keep guitar in every pose including lying, safely held; no detached guitar or fragments."
+    ]
+  ],
+  "layoutRevision": "Preserve design and twelve poses; reduce silhouettes 25%, generous transparent margins, 4x3 grid.",
+  "colorVariants": [
+    {
+      "name": "punk-blue",
+      "edit": "Change only plum leather jacket to dark cobalt blue. Preserve skin, green mohawk, clothes, poses, placement and transparency."
+    },
+    {
+      "name": "punk-red",
+      "edit": "Change only plum leather jacket to deep brick red. Preserve skin, green mohawk, clothes, poses, placement and transparency."
+    }
+  ]
+}

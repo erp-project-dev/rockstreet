@@ -1,0 +1,72 @@
+[
+  {
+    "character": "sid",
+    "ok": true,
+    "result": "sid : isolated complete silhouettes, transparency and atlas bounds verified."
+  },
+  {
+    "character": "mohawk",
+    "ok": true,
+    "result": "mohawk : isolated complete silhouettes, transparency and atlas bounds verified."
+  },
+  {
+    "character": "chain",
+    "ok": true,
+    "result": "chain : isolated complete silhouettes, transparency and atlas bounds verified."
+  },
+  {
+    "character": "skinhead",
+    "ok": true,
+    "result": "skinhead : isolated complete silhouettes, transparency and atlas bounds verified."
+  },
+  {
+    "character": "thrower",
+    "ok": true,
+    "result": "thrower : isolated complete silhouettes, transparency and atlas bounds verified."
+  },
+  {
+    "character": "boss-2",
+    "ok": true,
+    "result": "boss-2 : isolated complete silhouettes, transparency and atlas bounds verified."
+  },
+  {
+    "character": "boss-3",
+    "ok": true,
+    "result": "boss-3 : isolated complete silhouettes, transparency and atlas bounds verified."
+  },
+  {
+    "character": "boss-4",
+    "ok": true,
+    "result": "boss-4 : isolated complete silhouettes, transparency and atlas bounds verified."
+  },
+  {
+    "character": "boss-5",
+    "ok": true,
+    "result": "boss-5 : isolated complete silhouettes, transparency and atlas bounds verified."
+  },
+  {
+    "character": "boss-6",
+    "ok": true,
+    "result": "boss-6 : isolated complete silhouettes, transparency and atlas bounds verified."
+  },
+  {
+    "character": "boss-7",
+    "ok": true,
+    "result": "boss-7 : isolated complete silhouettes, transparency and atlas bounds verified."
+  },
+  {
+    "character": "boss-8",
+    "ok": true,
+    "result": "boss-8 : isolated complete silhouettes, transparency and atlas bounds verified."
+  },
+  {
+    "character": "boss-9",
+    "ok": true,
+    "result": "boss-9 : isolated complete silhouettes, transparency and atlas bounds verified."
+  },
+  {
+    "character": "boss-10",
+    "ok": true,
+    "result": "boss-10 : isolated complete silhouettes, transparency and atlas bounds verified."
+  }
+]

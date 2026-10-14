@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "0": {
+      "frame": {
+        "x": 69,
+        "y": 54,
+        "w": 1055,
+        "h": 1219
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 69,
+        "y": 54,
+        "w": 1055,
+        "h": 1219
+      },
+      "sourceSize": {
+        "w": 1165,
+        "h": 1350
+      }
+    }
+  },
+  "meta": {
+    "image": "contract.png",
+    "size": {
+      "w": 1165,
+      "h": 1350
+    },
+    "scale": "1"
+  }
+}

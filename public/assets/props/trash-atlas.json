@@ -1,0 +1,31 @@
+{
+  "frames": {
+    "0": {
+      "frame": {
+        "x": 212,
+        "y": 2,
+        "w": 891,
+        "h": 1252
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 891,
+        "h": 1252
+      },
+      "sourceSize": {
+        "w": 891,
+        "h": 1252
+      }
+    }
+  },
+  "meta": {
+    "image": "trash.png",
+    "size": {
+      "w": 1234,
+      "h": 1274
+    }
+  }
+}

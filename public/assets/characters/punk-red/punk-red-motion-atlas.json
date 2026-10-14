@@ -1,0 +1,172 @@
+{
+  "frames": {
+    "0": {
+      "frame": {
+        "x": 61,
+        "y": 39,
+        "w": 289,
+        "h": 423
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 184,
+        "y": 212,
+        "w": 289,
+        "h": 423
+      },
+      "sourceSize": {
+        "w": 690,
+        "h": 690
+      }
+    },
+    "1": {
+      "frame": {
+        "x": 520,
+        "y": 43,
+        "w": 343,
+        "h": 419
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 200,
+        "y": 216,
+        "w": 343,
+        "h": 419
+      },
+      "sourceSize": {
+        "w": 690,
+        "h": 690
+      }
+    },
+    "2": {
+      "frame": {
+        "x": 969,
+        "y": 67,
+        "w": 327,
+        "h": 395
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 205,
+        "y": 240,
+        "w": 327,
+        "h": 395
+      },
+      "sourceSize": {
+        "w": 690,
+        "h": 690
+      }
+    },
+    "3": {
+      "frame": {
+        "x": 1386,
+        "y": 86,
+        "w": 353,
+        "h": 375
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 179,
+        "y": 260,
+        "w": 353,
+        "h": 375
+      },
+      "sourceSize": {
+        "w": 690,
+        "h": 690
+      }
+    },
+    "4": {
+      "frame": {
+        "x": 64,
+        "y": 481,
+        "w": 314,
+        "h": 375
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 187,
+        "y": 260,
+        "w": 314,
+        "h": 375
+      },
+      "sourceSize": {
+        "w": 690,
+        "h": 690
+      }
+    },
+    "5": {
+      "frame": {
+        "x": 493,
+        "y": 526,
+        "w": 295,
+        "h": 330
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 173,
+        "y": 305,
+        "w": 295,
+        "h": 330
+      },
+      "sourceSize": {
+        "w": 690,
+        "h": 690
+      }
+    },
+    "6": {
+      "frame": {
+        "x": 881,
+        "y": 731,
+        "w": 499,
+        "h": 125
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 117,
+        "y": 510,
+        "w": 499,
+        "h": 125
+      },
+      "sourceSize": {
+        "w": 690,
+        "h": 690
+      }
+    },
+    "7": {
+      "frame": {
+        "x": 1432,
+        "y": 560,
+        "w": 293,
+        "h": 298
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 225,
+        "y": 337,
+        "w": 293,
+        "h": 298
+      },
+      "sourceSize": {
+        "w": 690,
+        "h": 690
+      }
+    }
+  },
+  "meta": {
+    "image": "punk-red-motion.png",
+    "size": {
+      "w": 1774,
+      "h": 887
+    },
+    "scale": "1"
+  }
+}

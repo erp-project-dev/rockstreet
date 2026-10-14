@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "0": {
+      "frame": {
+        "x": 11,
+        "y": 100,
+        "w": 1749,
+        "h": 689
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 100,
+        "w": 1749,
+        "h": 689
+      },
+      "sourceSize": {
+        "w": 1774,
+        "h": 887
+      }
+    }
+  },
+  "meta": {
+    "image": "ring.png",
+    "size": {
+      "w": 1774,
+      "h": 887
+    },
+    "scale": "1"
+  }
+}

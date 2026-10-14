@@ -1,0 +1,172 @@
+{
+  "frames": {
+    "0": {
+      "frame": {
+        "x": 56,
+        "y": 34,
+        "w": 322,
+        "h": 442
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 243,
+        "y": 311,
+        "w": 322,
+        "h": 442
+      },
+      "sourceSize": {
+        "w": 818,
+        "h": 818
+      }
+    },
+    "1": {
+      "frame": {
+        "x": 481,
+        "y": 40,
+        "w": 407,
+        "h": 436
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 225,
+        "y": 317,
+        "w": 407,
+        "h": 436
+      },
+      "sourceSize": {
+        "w": 818,
+        "h": 818
+      }
+    },
+    "2": {
+      "frame": {
+        "x": 941,
+        "y": 47,
+        "w": 328,
+        "h": 429
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 241,
+        "y": 324,
+        "w": 328,
+        "h": 429
+      },
+      "sourceSize": {
+        "w": 818,
+        "h": 818
+      }
+    },
+    "3": {
+      "frame": {
+        "x": 1338,
+        "y": 65,
+        "w": 385,
+        "h": 408
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 195,
+        "y": 345,
+        "w": 385,
+        "h": 408
+      },
+      "sourceSize": {
+        "w": 818,
+        "h": 818
+      }
+    },
+    "4": {
+      "frame": {
+        "x": 57,
+        "y": 494,
+        "w": 315,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 244,
+        "y": 393,
+        "w": 315,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 818,
+        "h": 818
+      }
+    },
+    "5": {
+      "frame": {
+        "x": 461,
+        "y": 543,
+        "w": 349,
+        "h": 311
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 205,
+        "y": 442,
+        "w": 349,
+        "h": 311
+      },
+      "sourceSize": {
+        "w": 818,
+        "h": 818
+      }
+    },
+    "6": {
+      "frame": {
+        "x": 848,
+        "y": 723,
+        "w": 535,
+        "h": 133
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 148,
+        "y": 620,
+        "w": 535,
+        "h": 133
+      },
+      "sourceSize": {
+        "w": 818,
+        "h": 818
+      }
+    },
+    "7": {
+      "frame": {
+        "x": 1424,
+        "y": 541,
+        "w": 321,
+        "h": 313
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 281,
+        "y": 440,
+        "w": 321,
+        "h": 313
+      },
+      "sourceSize": {
+        "w": 818,
+        "h": 818
+      }
+    }
+  },
+  "meta": {
+    "image": "thrower-motion.png",
+    "size": {
+      "w": 1774,
+      "h": 887
+    },
+    "scale": "1"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "0": {
+      "frame": {
+        "x": 315,
+        "y": 17,
+        "w": 392,
+        "h": 1500
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 315,
+        "y": 17,
+        "w": 392,
+        "h": 1500
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1536
+      }
+    }
+  },
+  "meta": {
+    "image": "bottle.png",
+    "size": {
+      "w": 1024,
+      "h": 1536
+    },
+    "scale": "1"
+  }
+}

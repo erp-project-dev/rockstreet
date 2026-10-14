@@ -1,0 +1,282 @@
+{
+  "tool": "image_gen built-in",
+  "tasks": [
+    {
+      "kind": "prop",
+      "name": "trash",
+      "out": "public/assets/props/trash.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. One isolated dented galvanized steel street trash can with lid askew, rubbed paint, punk stickers without readable text, subtle cyan and magenta reflections. Full object centered with 15% transparent padding, boots-scale street prop, slight three-quarter view. Actual transparent alpha, no ground or shadow, no background, no text or logo."
+    },
+    {
+      "kind": "prop",
+      "name": "amp",
+      "out": "public/assets/props/amp.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. One isolated battered vintage guitar amplifier cabinet, black worn leather covering, torn gray speaker grille, exposed wooden corner, gold control strip with knobs and red power switch. Full object centered with 15% transparent padding, slight three-quarter view, realistic musician equipment distinct from glowing skill icon. Actual transparent alpha, no glow, no ground or shadow, no text or logo."
+    },
+    {
+      "kind": "level",
+      "name": "club",
+      "id": 2,
+      "out": "public/assets/levels/club.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: final 2D scrolling level background, extremely wide 3:1 panorama ideally 3072x1024. Night music-club alley behind El Amplificador, brick wall, fire escapes, old concert posters, speaker stacks, wet pavement, restrained cyan and magenta neon. On far right rear band, open loading doors reveal small live stage, cassette playback deck and red curtains. Fixed side-on architectural elevation with rear wall parallel to screen, NO central vanishing-point corridor. Rear environment occupies upper 60% of image; bottom 40% entirely unobstructed fighting floor, horizontal wall-floor boundary. All equipment, furniture, vehicles and debris restricted to rear band, never in foreground fighting lanes. Keep exact floor horizon and equally dark floor at left and right edges; dark architectural ends allow alternating mirrored repetition. Far-right arena feature fully within rear band. No fighters, no large foreground objects, no readable lettering, no UI, no logos, no watermark."
+    },
+    {
+      "kind": "lore",
+      "name": "club",
+      "id": 2,
+      "out": "public/assets/lore/club.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: 16:9 narrative mission briefing painting. Night music-club alley behind El Amplificador, brick wall, fire escapes, old concert posters, speaker stacks, wet pavement, restrained cyan and magenta neon. On far right rear band, open loading doors reveal small live stage, cassette playback deck and red curtains. Use atmospheric diagonal interior or environmental view, storytelling architecture and musical equipment concentrated in RIGHT 40%. LEFT 60% very dark quiet wall or shadow reserved for white lore paragraphs; top 23% dark uncluttered area for title. Clearly recognizable location, cinematic storytelling, warm and neon light appropriate to scene. No characters or ending spoilers, no readable words, no UI, no logo, no watermark. All characters in this world are human, no clay figures or magical furnace."
+    },
+    {
+      "kind": "level",
+      "name": "arcade",
+      "id": 3,
+      "out": "public/assets/levels/arcade.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: final 2D scrolling level background, extremely wide 3:1 panorama ideally 3072x1024. Interior of Pixel Palace arcade, rows of colorful 1980s arcade cabinets entirely along rear wall, screens without readable text, neon strips, worn carpet motifs at the back, open dark polished floor in front. Far right rear band contains a closed staff door and drum equipment behind a grille, hinting Tambo's captivity. Fixed side-on architectural elevation with rear wall parallel to screen, NO central vanishing-point corridor. Rear environment occupies upper 60% of image; bottom 40% entirely unobstructed fighting floor, horizontal wall-floor boundary. All equipment, furniture, vehicles and debris restricted to rear band, never in foreground fighting lanes. Keep exact floor horizon and equally dark floor at left and right edges; dark architectural ends allow alternating mirrored repetition. Far-right arena feature fully within rear band. No fighters, no large foreground objects, no readable lettering, no UI, no logos, no watermark."
+    },
+    {
+      "kind": "lore",
+      "name": "arcade",
+      "id": 3,
+      "out": "public/assets/lore/arcade.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: 16:9 narrative mission briefing painting. Interior of Pixel Palace arcade, rows of colorful 1980s arcade cabinets entirely along rear wall, screens without readable text, neon strips, worn carpet motifs at the back, open dark polished floor in front. Far right rear band contains a closed staff door and drum equipment behind a grille, hinting Tambo's captivity. Use atmospheric diagonal interior or environmental view, storytelling architecture and musical equipment concentrated in RIGHT 40%. LEFT 60% very dark quiet wall or shadow reserved for white lore paragraphs; top 23% dark uncluttered area for title. Clearly recognizable location, cinematic storytelling, warm and neon light appropriate to scene. No characters or ending spoilers, no readable words, no UI, no logo, no watermark. All characters in this world are human, no clay figures or magical furnace."
+    },
+    {
+      "kind": "level",
+      "name": "vinyl",
+      "id": 4,
+      "out": "public/assets/levels/vinyl.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: final 2D scrolling level background, extremely wide 3:1 panorama ideally 3072x1024. Vinilo Negro record shop interior, rear racks of vinyl sleeves, crates, listening stations and turntables, wall posters without text, warm amber and red accents. Far right rear band has a raised DJ demonstration booth with stacks of swapped records. Foreground open wood floor, no clutter. Fixed side-on architectural elevation with rear wall parallel to screen, NO central vanishing-point corridor. Rear environment occupies upper 60% of image; bottom 40% entirely unobstructed fighting floor, horizontal wall-floor boundary. All equipment, furniture, vehicles and debris restricted to rear band, never in foreground fighting lanes. Keep exact floor horizon and equally dark floor at left and right edges; dark architectural ends allow alternating mirrored repetition. Far-right arena feature fully within rear band. No fighters, no large foreground objects, no readable lettering, no UI, no logos, no watermark."
+    },
+    {
+      "kind": "lore",
+      "name": "vinyl",
+      "id": 4,
+      "out": "public/assets/lore/vinyl.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: 16:9 narrative mission briefing painting. Vinilo Negro record shop interior, rear racks of vinyl sleeves, crates, listening stations and turntables, wall posters without text, warm amber and red accents. Far right rear band has a raised DJ demonstration booth with stacks of swapped records. Foreground open wood floor, no clutter. Use atmospheric diagonal interior or environmental view, storytelling architecture and musical equipment concentrated in RIGHT 40%. LEFT 60% very dark quiet wall or shadow reserved for white lore paragraphs; top 23% dark uncluttered area for title. Clearly recognizable location, cinematic storytelling, warm and neon light appropriate to scene. No characters or ending spoilers, no readable words, no UI, no logo, no watermark. All characters in this world are human, no clay figures or magical furnace."
+    },
+    {
+      "kind": "level",
+      "name": "metro",
+      "id": 5,
+      "out": "public/assets/levels/metro.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: final 2D scrolling level background, extremely wide 3:1 panorama ideally 3072x1024. Extra-wide side-on cutaway interior of an old 1986 subway train, repeating windows showing blurred Neon City night lights, metal doors, worn passenger benches along REAR wall only, handrails on rear wall. Far right rear band richer upholstery for VIP carriage. Unobstructed broad aisle floor; no poles or seats in foreground. Fixed side-on architectural elevation with rear wall parallel to screen, NO central vanishing-point corridor. Rear environment occupies upper 60% of image; bottom 40% entirely unobstructed fighting floor, horizontal wall-floor boundary. All equipment, furniture, vehicles and debris restricted to rear band, never in foreground fighting lanes. Keep exact floor horizon and equally dark floor at left and right edges; dark architectural ends allow alternating mirrored repetition. Far-right arena feature fully within rear band. No fighters, no large foreground objects, no readable lettering, no UI, no logos, no watermark."
+    },
+    {
+      "kind": "lore",
+      "name": "metro",
+      "id": 5,
+      "out": "public/assets/lore/metro.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: 16:9 narrative mission briefing painting. Extra-wide side-on cutaway interior of an old 1986 subway train, repeating windows showing blurred Neon City night lights, metal doors, worn passenger benches along REAR wall only, handrails on rear wall. Far right rear band richer upholstery for VIP carriage. Unobstructed broad aisle floor; no poles or seats in foreground. Use atmospheric diagonal interior or environmental view, storytelling architecture and musical equipment concentrated in RIGHT 40%. LEFT 60% very dark quiet wall or shadow reserved for white lore paragraphs; top 23% dark uncluttered area for title. Clearly recognizable location, cinematic storytelling, warm and neon light appropriate to scene. No characters or ending spoilers, no readable words, no UI, no logo, no watermark. All characters in this world are human, no clay figures or magical furnace."
+    },
+    {
+      "kind": "level",
+      "name": "studio",
+      "id": 6,
+      "out": "public/assets/levels/studio.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: final 2D scrolling level background, extremely wide 3:1 panorama ideally 3072x1024. 1986 analog recording studio interior, rear acoustic panels, tape reels, mixing desk, cables mounted on wall, a bass guitar in recording booth visible behind glass. Violet and warm tungsten lights, empty foreground studio floor. Far right rear band has master recording booth and reel-to-reel racks, no modern screens. Fixed side-on architectural elevation with rear wall parallel to screen, NO central vanishing-point corridor. Rear environment occupies upper 60% of image; bottom 40% entirely unobstructed fighting floor, horizontal wall-floor boundary. All equipment, furniture, vehicles and debris restricted to rear band, never in foreground fighting lanes. Keep exact floor horizon and equally dark floor at left and right edges; dark architectural ends allow alternating mirrored repetition. Far-right arena feature fully within rear band. No fighters, no large foreground objects, no readable lettering, no UI, no logos, no watermark."
+    },
+    {
+      "kind": "lore",
+      "name": "studio",
+      "id": 6,
+      "out": "public/assets/lore/studio.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: 16:9 narrative mission briefing painting. 1986 analog recording studio interior, rear acoustic panels, tape reels, mixing desk, cables mounted on wall, a bass guitar in recording booth visible behind glass. Violet and warm tungsten lights, empty foreground studio floor. Far right rear band has master recording booth and reel-to-reel racks, no modern screens. Use atmospheric diagonal interior or environmental view, storytelling architecture and musical equipment concentrated in RIGHT 40%. LEFT 60% very dark quiet wall or shadow reserved for white lore paragraphs; top 23% dark uncluttered area for title. Clearly recognizable location, cinematic storytelling, warm and neon light appropriate to scene. No characters or ending spoilers, no readable words, no UI, no logo, no watermark. All characters in this world are human, no clay figures or magical furnace."
+    },
+    {
+      "kind": "level",
+      "name": "highway",
+      "id": 7,
+      "out": "public/assets/levels/highway.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: final 2D scrolling level background, extremely wide 3:1 panorama ideally 3072x1024. Night elevated highway maintenance shoulder, side-on concrete safety wall behind fighting area, distant Neon City skyline and dark bridge spans beyond it, old road signs without text, amber lamps and restrained red and cyan. Huge sound-system speaker stacks on far right rear band. Wide open asphalt foreground; no traffic or obstacles in fighting lanes. Fixed side-on architectural elevation with rear wall parallel to screen, NO central vanishing-point corridor. Rear environment occupies upper 60% of image; bottom 40% entirely unobstructed fighting floor, horizontal wall-floor boundary. All equipment, furniture, vehicles and debris restricted to rear band, never in foreground fighting lanes. Keep exact floor horizon and equally dark floor at left and right edges; dark architectural ends allow alternating mirrored repetition. Far-right arena feature fully within rear band. No fighters, no large foreground objects, no readable lettering, no UI, no logos, no watermark."
+    },
+    {
+      "kind": "lore",
+      "name": "highway",
+      "id": 7,
+      "out": "public/assets/lore/highway.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: 16:9 narrative mission briefing painting. Night elevated highway maintenance shoulder, side-on concrete safety wall behind fighting area, distant Neon City skyline and dark bridge spans beyond it, old road signs without text, amber lamps and restrained red and cyan. Huge sound-system speaker stacks on far right rear band. Wide open asphalt foreground; no traffic or obstacles in fighting lanes. Use atmospheric diagonal interior or environmental view, storytelling architecture and musical equipment concentrated in RIGHT 40%. LEFT 60% very dark quiet wall or shadow reserved for white lore paragraphs; top 23% dark uncluttered area for title. Clearly recognizable location, cinematic storytelling, warm and neon light appropriate to scene. No characters or ending spoilers, no readable words, no UI, no logo, no watermark. All characters in this world are human, no clay figures or magical furnace."
+    },
+    {
+      "kind": "level",
+      "name": "label",
+      "id": 8,
+      "out": "public/assets/levels/label.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: final 2D scrolling level background, extremely wide 3:1 panorama ideally 3072x1024. Interior of Discos Fachada record-label headquarters, 1986 lavish wood-and-brick production offices, rear gold records and analog desks, reel tape storage, doorway to keyboard recording booth. Warm gold and magenta lighting, open dark marble foreground. Far right rear band has large analog producer console with knobs, faders and meters, no modern computer monitors. Fixed side-on architectural elevation with rear wall parallel to screen, NO central vanishing-point corridor. Rear environment occupies upper 60% of image; bottom 40% entirely unobstructed fighting floor, horizontal wall-floor boundary. All equipment, furniture, vehicles and debris restricted to rear band, never in foreground fighting lanes. Keep exact floor horizon and equally dark floor at left and right edges; dark architectural ends allow alternating mirrored repetition. Far-right arena feature fully within rear band. No fighters, no large foreground objects, no readable lettering, no UI, no logos, no watermark."
+    },
+    {
+      "kind": "lore",
+      "name": "label",
+      "id": 8,
+      "out": "public/assets/lore/label.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: 16:9 narrative mission briefing painting. Interior of Discos Fachada record-label headquarters, 1986 lavish wood-and-brick production offices, rear gold records and analog desks, reel tape storage, doorway to keyboard recording booth. Warm gold and magenta lighting, open dark marble foreground. Far right rear band has large analog producer console with knobs, faders and meters, no modern computer monitors. Use atmospheric diagonal interior or environmental view, storytelling architecture and musical equipment concentrated in RIGHT 40%. LEFT 60% very dark quiet wall or shadow reserved for white lore paragraphs; top 23% dark uncluttered area for title. Clearly recognizable location, cinematic storytelling, warm and neon light appropriate to scene. No characters or ending spoilers, no readable words, no UI, no logo, no watermark. All characters in this world are human, no clay figures or magical furnace."
+    },
+    {
+      "kind": "level",
+      "name": "academy",
+      "id": 9,
+      "out": "public/assets/levels/academy.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: final 2D scrolling level background, extremely wide 3:1 panorama ideally 3072x1024. Academia del Metodo 1986 guitar music school, rear wall with chalkboards bearing abstract staff lines without legible text, metronomes, guitar stands, sheet music and tall windows. Cool blue and warm light, polished open wood foreground. Far right rear band has instructor recital platform and music stands. Fixed side-on architectural elevation with rear wall parallel to screen, NO central vanishing-point corridor. Rear environment occupies upper 60% of image; bottom 40% entirely unobstructed fighting floor, horizontal wall-floor boundary. All equipment, furniture, vehicles and debris restricted to rear band, never in foreground fighting lanes. Keep exact floor horizon and equally dark floor at left and right edges; dark architectural ends allow alternating mirrored repetition. Far-right arena feature fully within rear band. No fighters, no large foreground objects, no readable lettering, no UI, no logos, no watermark."
+    },
+    {
+      "kind": "lore",
+      "name": "academy",
+      "id": 9,
+      "out": "public/assets/lore/academy.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: 16:9 narrative mission briefing painting. Academia del Metodo 1986 guitar music school, rear wall with chalkboards bearing abstract staff lines without legible text, metronomes, guitar stands, sheet music and tall windows. Cool blue and warm light, polished open wood foreground. Far right rear band has instructor recital platform and music stands. Use atmospheric diagonal interior or environmental view, storytelling architecture and musical equipment concentrated in RIGHT 40%. LEFT 60% very dark quiet wall or shadow reserved for white lore paragraphs; top 23% dark uncluttered area for title. Clearly recognizable location, cinematic storytelling, warm and neon light appropriate to scene. No characters or ending spoilers, no readable words, no UI, no logo, no watermark. All characters in this world are human, no clay figures or magical furnace."
+    },
+    {
+      "kind": "level",
+      "name": "stadium",
+      "id": 10,
+      "out": "public/assets/levels/stadium.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: final 2D scrolling level background, extremely wide 3:1 panorama ideally 3072x1024. Neon City stadium rock concert main stage from side view, enormous lighting rig, stacked amplifiers, distant audience only as tiny lights behind rear edge, magenta spotlights and gold light, broad open dark stage floor. Far right rear band has ornate golden crown on pedestal and huge humming ANALOG MASTER MIXING CONSOLE with meters below stage rear. Human rock fraud story, absolutely no clay statues or furnace. Fixed side-on architectural elevation with rear wall parallel to screen, NO central vanishing-point corridor. Rear environment occupies upper 60% of image; bottom 40% entirely unobstructed fighting floor, horizontal wall-floor boundary. All equipment, furniture, vehicles and debris restricted to rear band, never in foreground fighting lanes. Keep exact floor horizon and equally dark floor at left and right edges; dark architectural ends allow alternating mirrored repetition. Far-right arena feature fully within rear band. No fighters, no large foreground objects, no readable lettering, no UI, no logos, no watermark."
+    },
+    {
+      "kind": "lore",
+      "name": "stadium",
+      "id": 10,
+      "out": "public/assets/lore/stadium.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: 16:9 narrative mission briefing painting. Neon City stadium rock concert main stage from side view, enormous lighting rig, stacked amplifiers, distant audience only as tiny lights behind rear edge, magenta spotlights and gold light, broad open dark stage floor. Far right rear band has ornate golden crown on pedestal and huge humming ANALOG MASTER MIXING CONSOLE with meters below stage rear. Human rock fraud story, absolutely no clay statues or furnace. Use atmospheric diagonal interior or environmental view, storytelling architecture and musical equipment concentrated in RIGHT 40%. LEFT 60% very dark quiet wall or shadow reserved for white lore paragraphs; top 23% dark uncluttered area for title. Clearly recognizable location, cinematic storytelling, warm and neon light appropriate to scene. No characters or ending spoilers, no readable words, no UI, no logo, no watermark. All characters in this world are human, no clay figures or magical furnace."
+    },
+    {
+      "kind": "character",
+      "name": "mohawk",
+      "key": "enemy-mohawk",
+      "out": "public/assets/characters/mohawk/mohawk-sheet.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: exact FOUR columns FOUR rows, sixteen isolated full-body character sprite poses on actual transparent alpha, square image. Figures SMALL within each cell: standing height 60% cell, fully contained within central 75% width, at least 12% blank transparent margins all sides. Fixed camera, face RIGHT, slightly three-quarter chest. Same face, costume, scale, weapon in every pose. No background, shadows, text, grid or labels. No cut-off tips, hands or weapons. Row-major poses: ROW1 idle fighting stance, second idle breathing, walk right foot forward, walk passing. ROW2 opposite walk contact, opposite walk passing, clearly telegraphed attack windup, Forward shoulder tackle toward RIGHT.. ROW3 forward charging, hurt recoil, lying on back head LEFT feet RIGHT entirely within cell, crouched getting up. ROW4 Preparing a sprint; lunge stride; shout to allies; recovery sprint pose.. Exactly sixteen clean separated figures, no overlaps; no extra limbs. The lying figure may be rotated but retain consistent proportions. Character: Human skinny fast punk with towering MAGENTA mohawk, fitted black leather jacket with violet accents, dark ripped jeans, combat boots, no weapon. Aggressive forward runner."
+    },
+    {
+      "kind": "character",
+      "name": "chain",
+      "key": "enemy-chain",
+      "out": "public/assets/characters/chain/chain-sheet.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: exact FOUR columns FOUR rows, sixteen isolated full-body character sprite poses on actual transparent alpha, square image. Figures SMALL within each cell: standing height 60% cell, fully contained within central 75% width, at least 12% blank transparent margins all sides. Fixed camera, face RIGHT, slightly three-quarter chest. Same face, costume, scale, weapon in every pose. No background, shadows, text, grid or labels. No cut-off tips, hands or weapons. Row-major poses: ROW1 idle fighting stance, second idle breathing, walk right foot forward, walk passing. ROW2 opposite walk contact, opposite walk passing, clearly telegraphed attack windup, Throw chain whip forward toward RIGHT, chain fully contained.. ROW3 forward charging, hurt recoil, lying on back head LEFT feet RIGHT entirely within cell, crouched getting up. ROW4 Chain windup coil; chain fully extended whip; threatening chain overhead; chain recovery.. Exactly sixteen clean separated figures, no overlaps; no extra limbs. The lying figure may be rotated but retain consistent proportions. Character: Human street thug with short YELLOW spiked hair, red-brown sleeveless leather jacket, gray tank top, dark jeans, boots, a heavy SILVER CHAIN always in one hand."
+    },
+    {
+      "kind": "character",
+      "name": "skinhead",
+      "key": "enemy-skinhead",
+      "out": "public/assets/characters/skinhead/skinhead-sheet.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: exact FOUR columns FOUR rows, sixteen isolated full-body character sprite poses on actual transparent alpha, square image. Figures SMALL within each cell: standing height 60% cell, fully contained within central 75% width, at least 12% blank transparent margins all sides. Fixed camera, face RIGHT, slightly three-quarter chest. Same face, costume, scale, weapon in every pose. No background, shadows, text, grid or labels. No cut-off tips, hands or weapons. Row-major poses: ROW1 idle fighting stance, second idle breathing, walk right foot forward, walk passing. ROW2 opposite walk contact, opposite walk passing, clearly telegraphed attack windup, Heavy forward fist punch toward RIGHT.. ROW3 forward charging, hurt recoil, lying on back head LEFT feet RIGHT entirely within cell, crouched getting up. ROW4 Slow heavy punch windup; two-hand ground slam; shouting challenge; defensive fists.. Exactly sixteen clean separated figures, no overlaps; no extra limbs. The lying figure may be rotated but retain consistent proportions. Character: Human very broad bulky bald tank fighter, green sleeveless vest, muscular arms, dark work trousers, heavy boots, no weapons. Strong larger silhouette distinct from skinny punks."
+    },
+    {
+      "kind": "character",
+      "name": "thrower",
+      "key": "enemy-thrower",
+      "out": "public/assets/characters/thrower/thrower-sheet.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: exact FOUR columns FOUR rows, sixteen isolated full-body character sprite poses on actual transparent alpha, square image. Figures SMALL within each cell: standing height 60% cell, fully contained within central 75% width, at least 12% blank transparent margins all sides. Fixed camera, face RIGHT, slightly three-quarter chest. Same face, costume, scale, weapon in every pose. No background, shadows, text, grid or labels. No cut-off tips, hands or weapons. Row-major poses: ROW1 idle fighting stance, second idle breathing, walk right foot forward, walk passing. ROW2 opposite walk contact, opposite walk passing, clearly telegraphed attack windup, Throwing bottle forward toward RIGHT, hand release pose.. ROW3 forward charging, hurt recoil, lying on back head LEFT feet RIGHT entirely within cell, crouched getting up. ROW4 Bottle arm-back windup; bottle throw follow-through; drawing next bottle from belt; bottles ready.. Exactly sixteen clean separated figures, no overlaps; no extra limbs. The lying figure may be rotated but retain consistent proportions. Character: Human lean punk with short CYAN hair, dark blue jacket, black jeans, boots, a green glass bottle in hand and bottles tucked in belt."
+    },
+    {
+      "kind": "character",
+      "name": "boss-2",
+      "key": "boss-2",
+      "out": "public/assets/characters/boss-2/boss-2-sheet.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: exact FOUR columns FOUR rows, sixteen isolated full-body character sprite poses on actual transparent alpha, square image. Figures SMALL within each cell: standing height 60% cell, fully contained within central 75% width, at least 12% blank transparent margins all sides. Fixed camera, face RIGHT, slightly three-quarter chest. Same face, costume, scale, weapon in every pose. No background, shadows, text, grid or labels. No cut-off tips, hands or weapons. Row-major poses: ROW1 idle fighting stance, second idle breathing, walk right foot forward, walk passing. ROW2 opposite walk contact, opposite walk passing, clearly telegraphed attack windup, Forward guitar-body strike.. ROW3 forward charging, hurt recoil, lying on back head LEFT feet RIGHT entirely within cell, crouched getting up. ROW4 Strumming to launch a sound note; stomp with guitar held; beckoning fanatics; pressing cassette-deck play button.. Exactly sixteen clean separated figures, no overlaps; no extra limbs. The lying figure may be rotated but retain consistent proportions. Character: HUMAN adult male Rey del Playback, swept high black pompadour, tan skin, flamboyant black and gold stage jacket, shiny boots, gold guitar, a portable cassette deck strapped at belt. Smug false rock star; no clay or cracks."
+    },
+    {
+      "kind": "character",
+      "name": "boss-3",
+      "key": "boss-3",
+      "out": "public/assets/characters/boss-3/boss-3-sheet.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: exact FOUR columns FOUR rows, sixteen isolated full-body character sprite poses on actual transparent alpha, square image. Figures SMALL within each cell: standing height 60% cell, fully contained within central 75% width, at least 12% blank transparent margins all sides. Fixed camera, face RIGHT, slightly three-quarter chest. Same face, costume, scale, weapon in every pose. No background, shadows, text, grid or labels. No cut-off tips, hands or weapons. Row-major poses: ROW1 idle fighting stance, second idle breathing, walk right foot forward, walk passing. ROW2 opposite walk contact, opposite walk passing, clearly telegraphed attack windup, Rapid forward guitar-body strike.. ROW3 forward charging, hurt recoil, lying on back head LEFT feet RIGHT entirely within cell, crouched getting up. ROW4 Fast strum sound-note shot; guitar raised stomp; arrogant beckoning; fingers shredding high on neck.. Exactly sixteen clean separated figures, no overlaps; no extra limbs. The lying figure may be rotated but retain consistent proportions. Character: HUMAN adult male Shredder Sin Alma, very long black hair, light tan skin, black sleeveless jacket with CYAN piping, slim muscular arms, ripped dark jeans, angular cyan electric guitar, boots. Fast theatrical virtuoso; no clay."
+    },
+    {
+      "kind": "character",
+      "name": "boss-4",
+      "key": "boss-4",
+      "out": "public/assets/characters/boss-4/boss-4-sheet.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: exact FOUR columns FOUR rows, sixteen isolated full-body character sprite poses on actual transparent alpha, square image. Figures SMALL within each cell: standing height 60% cell, fully contained within central 75% width, at least 12% blank transparent margins all sides. Fixed camera, face RIGHT, slightly three-quarter chest. Same face, costume, scale, weapon in every pose. No background, shadows, text, grid or labels. No cut-off tips, hands or weapons. Row-major poses: ROW1 idle fighting stance, second idle breathing, walk right foot forward, walk passing. ROW2 opposite walk contact, opposite walk passing, clearly telegraphed attack windup, Forward guitar strike.. ROW3 forward charging, hurt recoil, lying on back head LEFT feet RIGHT entirely within cell, crouched getting up. ROW4 Guitar bend sound-note shot; kneeling powerful ground stomp; dismissive beckoning; exaggerated guitar string bend.. Exactly sixteen clean separated figures, no overlaps; no extra limbs. The lying figure may be rotated but retain consistent proportions. Character: HUMAN adult female Reina del Bend Desafinado, long dark wavy hair, small silver crown, warm tan skin, magenta and black leather stage outfit, sturdy heeled combat boots, purple-red electric guitar. Fierce elegant rock queen; no clay."
+    },
+    {
+      "kind": "character",
+      "name": "boss-5",
+      "key": "boss-5",
+      "out": "public/assets/characters/boss-5/boss-5-sheet.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: exact FOUR columns FOUR rows, sixteen isolated full-body character sprite poses on actual transparent alpha, square image. Figures SMALL within each cell: standing height 60% cell, fully contained within central 75% width, at least 12% blank transparent margins all sides. Fixed camera, face RIGHT, slightly three-quarter chest. Same face, costume, scale, weapon in every pose. No background, shadows, text, grid or labels. No cut-off tips, hands or weapons. Row-major poses: ROW1 idle fighting stance, second idle breathing, walk right foot forward, walk passing. ROW2 opposite walk contact, opposite walk passing, clearly telegraphed attack windup, Guitar strike in dramatic pose.. ROW3 forward charging, hurt recoil, lying on back head LEFT feet RIGHT entirely within cell, crouched getting up. ROW4 Exaggerated guitar-point pose; chest-forward stomp; beckon followers; inspecting dangling unplugged cable.. Exactly sixteen clean separated figures, no overlaps; no extra limbs. The lying figure may be rotated but retain consistent proportions. Character: HUMAN adult male Pose Maestro, medium brown skin, immaculate black pompadour, extravagant ORANGE glam jacket, black trousers, pointed stage boots, orange-red electric guitar with visibly dangling unplugged cable. Posing celebrity; no clay."
+    },
+    {
+      "kind": "character",
+      "name": "boss-6",
+      "key": "boss-6",
+      "out": "public/assets/characters/boss-6/boss-6-sheet.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: exact FOUR columns FOUR rows, sixteen isolated full-body character sprite poses on actual transparent alpha, square image. Figures SMALL within each cell: standing height 60% cell, fully contained within central 75% width, at least 12% blank transparent margins all sides. Fixed camera, face RIGHT, slightly three-quarter chest. Same face, costume, scale, weapon in every pose. No background, shadows, text, grid or labels. No cut-off tips, hands or weapons. Row-major poses: ROW1 idle fighting stance, second idle breathing, walk right foot forward, walk passing. ROW2 opposite walk contact, opposite walk passing, clearly telegraphed attack windup, Forward guitar-body strike.. ROW3 forward charging, hurt recoil, lying on back head LEFT feet RIGHT entirely within cell, crouched getting up. ROW4 Copying a guitar strum sound shot; stomp; beckoning gesture; intensely copying fingering on guitar neck.. Exactly sixteen clean separated figures, no overlaps; no extra limbs. The lying figure may be rotated but retain consistent proportions. Character: HUMAN adult male El Clon, long brown hair, tan skin, purple-black leather jacket and dark jeans, violet guitar, boots. Generic rock imitator with calculating expression, distinct hair and face from Axel; no clay."
+    },
+    {
+      "kind": "character",
+      "name": "boss-7",
+      "key": "boss-7",
+      "out": "public/assets/characters/boss-7/boss-7-sheet.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: exact FOUR columns FOUR rows, sixteen isolated full-body character sprite poses on actual transparent alpha, square image. Figures SMALL within each cell: standing height 60% cell, fully contained within central 75% width, at least 12% blank transparent margins all sides. Fixed camera, face RIGHT, slightly three-quarter chest. Same face, costume, scale, weapon in every pose. No background, shadows, text, grid or labels. No cut-off tips, hands or weapons. Row-major poses: ROW1 idle fighting stance, second idle breathing, walk right foot forward, walk passing. ROW2 opposite walk contact, opposite walk passing, clearly telegraphed attack windup, Heavy forward guitar smash.. ROW3 forward charging, hurt recoil, lying on back head LEFT feet RIGHT entirely within cell, crouched getting up. ROW4 Explosive guitar-note shot; two-hand ground slam with guitar; roaring beckon; twisting enormous volume dial.. Exactly sixteen clean separated figures, no overlaps; no extra limbs. The lying figure may be rotated but retain consistent proportions. Character: HUMAN adult male Volumen Maximo, huge muscular build, dark tan skin, tall RED mohawk, black and red sleeveless vest, heavy black trousers and boots, black electric guitar and chunky belt-mounted volume dial. Loud aggressive rock brute; no clay."
+    },
+    {
+      "kind": "character",
+      "name": "boss-8",
+      "key": "boss-8",
+      "out": "public/assets/characters/boss-8/boss-8-sheet.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: exact FOUR columns FOUR rows, sixteen isolated full-body character sprite poses on actual transparent alpha, square image. Figures SMALL within each cell: standing height 60% cell, fully contained within central 75% width, at least 12% blank transparent margins all sides. Fixed camera, face RIGHT, slightly three-quarter chest. Same face, costume, scale, weapon in every pose. No background, shadows, text, grid or labels. No cut-off tips, hands or weapons. Row-major poses: ROW1 idle fighting stance, second idle breathing, walk right foot forward, walk passing. ROW2 opposite walk contact, opposite walk passing, clearly telegraphed attack windup, Forward vinyl-record slap.. ROW3 forward charging, hurt recoil, lying on back head LEFT feet RIGHT entirely within cell, crouched getting up. ROW4 Throw paper recording contract; stomp commanding beat pulse; calling hired musicians; pointing authoritative orders with vinyl in other hand.. Exactly sixteen clean separated figures, no overlaps; no extra limbs. The lying figure may be rotated but retain consistent proportions. Character: HUMAN adult male BLAK SOURCE the producer, warm light-tan skin, thick black moustache, round dark glasses, colorful Peruvian knitted CHULLO hat with ear flaps, amber-orange jacket over black shirt, dark pants and boots. Holds BLACK VINYL record, NOT guitar. Arrogant analog music producer; no clay."
+    },
+    {
+      "kind": "character",
+      "name": "boss-9",
+      "key": "boss-9",
+      "out": "public/assets/characters/boss-9/boss-9-sheet.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: exact FOUR columns FOUR rows, sixteen isolated full-body character sprite poses on actual transparent alpha, square image. Figures SMALL within each cell: standing height 60% cell, fully contained within central 75% width, at least 12% blank transparent margins all sides. Fixed camera, face RIGHT, slightly three-quarter chest. Same face, costume, scale, weapon in every pose. No background, shadows, text, grid or labels. No cut-off tips, hands or weapons. Row-major poses: ROW1 idle fighting stance, second idle breathing, walk right foot forward, walk passing. ROW2 opposite walk contact, opposite walk passing, clearly telegraphed attack windup, Forward precise guitar strike.. ROW3 forward charging, hurt recoil, lying on back head LEFT feet RIGHT entirely within cell, crouched getting up. ROW4 Strum musical scale sound shot; rhythmic stomp; instructing with raised finger; stiff arpeggio playing pose.. Exactly sixteen clean separated figures, no overlaps; no extra limbs. The lying figure may be rotated but retain consistent proportions. Character: HUMAN adult male ALEX ESCALANDER, tall SLENDER build, pale tan skin, neat dark pompadour, BLUE tailored stage jacket, black trousers, boots, blue electric guitar. Pedantic guitar instructor with prim stern expression; no clay."
+    },
+    {
+      "kind": "character",
+      "name": "boss-10",
+      "key": "boss-10",
+      "out": "public/assets/characters/boss-10/boss-10-sheet.png",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. Asset: exact FOUR columns FOUR rows, sixteen isolated full-body character sprite poses on actual transparent alpha, square image. Figures SMALL within each cell: standing height 60% cell, fully contained within central 75% width, at least 12% blank transparent margins all sides. Fixed camera, face RIGHT, slightly three-quarter chest. Same face, costume, scale, weapon in every pose. No background, shadows, text, grid or labels. No cut-off tips, hands or weapons. Row-major poses: ROW1 idle fighting stance, second idle breathing, walk right foot forward, walk passing. ROW2 opposite walk contact, opposite walk passing, clearly telegraphed attack windup, Powerful forward guitar smash.. ROW3 forward charging, hurt recoil, lying on back head LEFT feet RIGHT entirely within cell, crouched getting up. ROW4 Royal guitar-note shot; dominant stomp; royal beckon; raising guitar beneath crown.. Exactly sixteen clean separated figures, no overlaps; no extra limbs. The lying figure may be rotated but retain consistent proportions. Character: HUMAN adult male CARLOS PARRILLA, warm tan skin, long dark curly hair, ornate GOLD CROWN, black and MAGENTA embroidered stage jacket, black pants and rock boots, red-and-gold electric guitar. Final false rock king, regal theatrical swagger; no clay."
+    },
+    {
+      "kind": "intro",
+      "name": "intro",
+      "out": "public/assets/lore/intro.jpg",
+      "alpha": false,
+      "prompt": "Use case: stylized-concept. RockStreet, fictional Neon City 1986 rock beat-em-up. Cinematic painted videogame illustration, believable brick, leather, metal and concrete, strong silhouette, gritty rock album aesthetic. 16:9 narrative opening background: Neon City night skyline, wet brick rooftop, a blond long-haired human rock hero in black leather and jeans holding red electric guitar seen from behind at FAR RIGHT edge, looking toward distant lit stadium. Music clubs and neon city below, looming broadcast lights over stadium. Central 70% and upper left dark quiet night sky and shadow reserved for several paragraphs of white story text. Cinematic 1986 atmosphere, no readable text, no UI, no logos, no clay figures or furnace."
+    },
+    {
+      "kind": "sid-human",
+      "name": "sid",
+      "out": "public/assets/characters/sid/sid-sheet.png",
+      "alpha": true,
+      "reference": "/Users/eduardorodriguezpatino/Apps/games/rockstreet/public/assets/characters/sid/sid-sheet.png",
+      "prompt": "Precise skin/material correction to match updated story. This punk rock guitarist Sid is HUMAN, not clay. Change only his orange clay-textured skin with sculpted cracks into natural warm tan human skin on face and arms. Preserve green mohawk, black green leather jacket, guitar, exact twelve poses, 4x3 grid, size, transparent background, margins and all other details. No skin cracks, stone or clay. Do not move or add any figure."
+    }
+  ]
+}

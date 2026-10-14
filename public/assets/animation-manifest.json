@@ -1,0 +1,3992 @@
+{
+  "animations": {
+    "axel-idle": {
+      "key": "axel-idle",
+      "frames": [
+        {
+          "key": "axel-riff",
+          "frame": "0"
+        },
+        {
+          "key": "axel-riff",
+          "frame": "1"
+        }
+      ],
+      "frameRate": 3,
+      "repeat": -1
+    },
+    "axel-walk": {
+      "key": "axel-walk",
+      "frames": [
+        {
+          "key": "axel-riff",
+          "frame": "2"
+        },
+        {
+          "key": "axel-riff",
+          "frame": "3"
+        },
+        {
+          "key": "axel-riff",
+          "frame": "4"
+        },
+        {
+          "key": "axel-riff",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 10,
+      "repeat": -1
+    },
+    "axel-combo1": {
+      "key": "axel-combo1",
+      "frames": [
+        {
+          "key": "axel-riff",
+          "frame": "6"
+        },
+        {
+          "key": "axel-motion",
+          "frame": "2"
+        },
+        {
+          "key": "axel-riff",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 15,
+      "repeat": 0
+    },
+    "axel-combo2": {
+      "key": "axel-combo2",
+      "frames": [
+        {
+          "key": "axel-riff",
+          "frame": "7"
+        },
+        {
+          "key": "axel-motion",
+          "frame": "4"
+        },
+        {
+          "key": "axel-riff",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 14.2857,
+      "repeat": 0
+    },
+    "axel-combo3": {
+      "key": "axel-combo3",
+      "frames": [
+        {
+          "key": "axel-riff",
+          "frame": "8"
+        },
+        {
+          "key": "axel-motion",
+          "frame": "6"
+        },
+        {
+          "key": "axel-riff",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 8.8235,
+      "repeat": 0
+    },
+    "axel-dash": {
+      "key": "axel-dash",
+      "frames": [
+        {
+          "key": "axel-dash",
+          "frame": "0"
+        },
+        {
+          "key": "axel-dash",
+          "frame": "1"
+        },
+        {
+          "key": "axel-dash",
+          "frame": "1"
+        },
+        {
+          "key": "axel-dash",
+          "frame": "2"
+        }
+      ],
+      "frameRate": 22.22,
+      "repeat": 0
+    },
+    "axel-dashAttack": {
+      "key": "axel-dashAttack",
+      "frames": [
+        {
+          "key": "axel-motion",
+          "frame": "7"
+        },
+        {
+          "key": "axel-dash",
+          "frame": "1"
+        },
+        {
+          "key": "axel-motion",
+          "frame": "6"
+        },
+        {
+          "key": "axel-riff",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 15.3846,
+      "repeat": 0
+    },
+    "axel-hurt": {
+      "key": "axel-hurt",
+      "frames": [
+        {
+          "key": "axel-riff",
+          "frame": "11"
+        },
+        {
+          "key": "axel-motion",
+          "frame": "8"
+        },
+        {
+          "key": "axel-motion",
+          "frame": "9"
+        }
+      ],
+      "frameRate": 11.54,
+      "repeat": 0
+    },
+    "axel-fall": {
+      "key": "axel-fall",
+      "frames": [
+        {
+          "key": "axel-riff",
+          "frame": "11"
+        },
+        {
+          "key": "axel-motion",
+          "frame": "8"
+        }
+      ],
+      "frameRate": 8,
+      "repeat": 0
+    },
+    "axel-down": {
+      "key": "axel-down",
+      "frames": [
+        {
+          "key": "axel-motion",
+          "frame": "10"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "axel-dead": {
+      "key": "axel-dead",
+      "frames": [
+        {
+          "key": "axel-motion",
+          "frame": "10"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "axel-getup": {
+      "key": "axel-getup",
+      "frames": [
+        {
+          "key": "axel-riff",
+          "frame": "12"
+        },
+        {
+          "key": "axel-motion",
+          "frame": "11"
+        },
+        {
+          "key": "axel-riff",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "axel-powerChord": {
+      "key": "axel-powerChord",
+      "frames": [
+        {
+          "key": "axel-riff",
+          "frame": "13"
+        },
+        {
+          "key": "axel-motion",
+          "frame": "6"
+        },
+        {
+          "key": "axel-riff",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 10,
+      "repeat": 0
+    },
+    "axel-feedback": {
+      "key": "axel-feedback",
+      "frames": [
+        {
+          "key": "axel-riff",
+          "frame": "14"
+        },
+        {
+          "key": "axel-motion",
+          "frame": "6"
+        },
+        {
+          "key": "axel-riff",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 10,
+      "repeat": 0
+    },
+    "axel-solo": {
+      "key": "axel-solo",
+      "frames": [
+        {
+          "key": "axel-riff",
+          "frame": "15"
+        },
+        {
+          "key": "axel-riff",
+          "frame": "14"
+        },
+        {
+          "key": "axel-riff",
+          "frame": "13"
+        },
+        {
+          "key": "axel-riff",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 8,
+      "repeat": 0
+    },
+    "enemy-punk-idle": {
+      "key": "enemy-punk-idle",
+      "frames": [
+        {
+          "key": "enemy-punk",
+          "frame": "0"
+        },
+        {
+          "key": "enemy-punk",
+          "frame": "1"
+        }
+      ],
+      "frameRate": 3,
+      "repeat": -1
+    },
+    "enemy-punk-walk": {
+      "key": "enemy-punk-walk",
+      "frames": [
+        {
+          "key": "enemy-punk",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-punk",
+          "frame": "3"
+        },
+        {
+          "key": "enemy-punk",
+          "frame": "4"
+        },
+        {
+          "key": "enemy-punk",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 9,
+      "repeat": -1
+    },
+    "enemy-punk-windup": {
+      "key": "enemy-punk-windup",
+      "frames": [
+        {
+          "key": "enemy-punk-motion",
+          "frame": "1"
+        },
+        {
+          "key": "enemy-punk",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 5,
+      "repeat": 0
+    },
+    "enemy-punk-attack": {
+      "key": "enemy-punk-attack",
+      "frames": [
+        {
+          "key": "enemy-punk",
+          "frame": "7"
+        },
+        {
+          "key": "enemy-punk-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-punk",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 9.375,
+      "repeat": 0
+    },
+    "enemy-punk-charge": {
+      "key": "enemy-punk-charge",
+      "frames": [
+        {
+          "key": "enemy-punk",
+          "frame": "8"
+        },
+        {
+          "key": "enemy-punk-motion",
+          "frame": "3"
+        }
+      ],
+      "frameRate": 12,
+      "repeat": -1
+    },
+    "enemy-punk-hurt": {
+      "key": "enemy-punk-hurt",
+      "frames": [
+        {
+          "key": "enemy-punk",
+          "frame": "9"
+        },
+        {
+          "key": "enemy-punk-motion",
+          "frame": "4"
+        },
+        {
+          "key": "enemy-punk-motion",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 11.54,
+      "repeat": 0
+    },
+    "enemy-punk-down": {
+      "key": "enemy-punk-down",
+      "frames": [
+        {
+          "key": "enemy-punk-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "enemy-punk-dead": {
+      "key": "enemy-punk-dead",
+      "frames": [
+        {
+          "key": "enemy-punk-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "enemy-punk-getup": {
+      "key": "enemy-punk-getup",
+      "frames": [
+        {
+          "key": "enemy-punk",
+          "frame": "11"
+        },
+        {
+          "key": "enemy-punk-motion",
+          "frame": "7"
+        },
+        {
+          "key": "enemy-punk",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "enemy-punk-blue-idle": {
+      "key": "enemy-punk-blue-idle",
+      "frames": [
+        {
+          "key": "enemy-punk-blue",
+          "frame": "0"
+        },
+        {
+          "key": "enemy-punk-blue",
+          "frame": "1"
+        }
+      ],
+      "frameRate": 3,
+      "repeat": -1
+    },
+    "enemy-punk-blue-walk": {
+      "key": "enemy-punk-blue-walk",
+      "frames": [
+        {
+          "key": "enemy-punk-blue",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-punk-blue",
+          "frame": "3"
+        },
+        {
+          "key": "enemy-punk-blue",
+          "frame": "4"
+        },
+        {
+          "key": "enemy-punk-blue",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 9,
+      "repeat": -1
+    },
+    "enemy-punk-blue-windup": {
+      "key": "enemy-punk-blue-windup",
+      "frames": [
+        {
+          "key": "enemy-punk-blue-motion",
+          "frame": "1"
+        },
+        {
+          "key": "enemy-punk-blue",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 5,
+      "repeat": 0
+    },
+    "enemy-punk-blue-attack": {
+      "key": "enemy-punk-blue-attack",
+      "frames": [
+        {
+          "key": "enemy-punk-blue",
+          "frame": "7"
+        },
+        {
+          "key": "enemy-punk-blue-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-punk-blue",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 9.375,
+      "repeat": 0
+    },
+    "enemy-punk-blue-charge": {
+      "key": "enemy-punk-blue-charge",
+      "frames": [
+        {
+          "key": "enemy-punk-blue",
+          "frame": "8"
+        },
+        {
+          "key": "enemy-punk-blue-motion",
+          "frame": "3"
+        }
+      ],
+      "frameRate": 12,
+      "repeat": -1
+    },
+    "enemy-punk-blue-hurt": {
+      "key": "enemy-punk-blue-hurt",
+      "frames": [
+        {
+          "key": "enemy-punk-blue",
+          "frame": "9"
+        },
+        {
+          "key": "enemy-punk-blue-motion",
+          "frame": "4"
+        },
+        {
+          "key": "enemy-punk-blue-motion",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 11.54,
+      "repeat": 0
+    },
+    "enemy-punk-blue-down": {
+      "key": "enemy-punk-blue-down",
+      "frames": [
+        {
+          "key": "enemy-punk-blue-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "enemy-punk-blue-dead": {
+      "key": "enemy-punk-blue-dead",
+      "frames": [
+        {
+          "key": "enemy-punk-blue-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "enemy-punk-blue-getup": {
+      "key": "enemy-punk-blue-getup",
+      "frames": [
+        {
+          "key": "enemy-punk-blue",
+          "frame": "11"
+        },
+        {
+          "key": "enemy-punk-blue-motion",
+          "frame": "7"
+        },
+        {
+          "key": "enemy-punk-blue",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "enemy-punk-red-idle": {
+      "key": "enemy-punk-red-idle",
+      "frames": [
+        {
+          "key": "enemy-punk-red",
+          "frame": "0"
+        },
+        {
+          "key": "enemy-punk-red",
+          "frame": "1"
+        }
+      ],
+      "frameRate": 3,
+      "repeat": -1
+    },
+    "enemy-punk-red-walk": {
+      "key": "enemy-punk-red-walk",
+      "frames": [
+        {
+          "key": "enemy-punk-red",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-punk-red",
+          "frame": "3"
+        },
+        {
+          "key": "enemy-punk-red",
+          "frame": "4"
+        },
+        {
+          "key": "enemy-punk-red",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 9,
+      "repeat": -1
+    },
+    "enemy-punk-red-windup": {
+      "key": "enemy-punk-red-windup",
+      "frames": [
+        {
+          "key": "enemy-punk-red-motion",
+          "frame": "1"
+        },
+        {
+          "key": "enemy-punk-red",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 5,
+      "repeat": 0
+    },
+    "enemy-punk-red-attack": {
+      "key": "enemy-punk-red-attack",
+      "frames": [
+        {
+          "key": "enemy-punk-red",
+          "frame": "7"
+        },
+        {
+          "key": "enemy-punk-red-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-punk-red",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 9.375,
+      "repeat": 0
+    },
+    "enemy-punk-red-charge": {
+      "key": "enemy-punk-red-charge",
+      "frames": [
+        {
+          "key": "enemy-punk-red",
+          "frame": "8"
+        },
+        {
+          "key": "enemy-punk-red-motion",
+          "frame": "3"
+        }
+      ],
+      "frameRate": 12,
+      "repeat": -1
+    },
+    "enemy-punk-red-hurt": {
+      "key": "enemy-punk-red-hurt",
+      "frames": [
+        {
+          "key": "enemy-punk-red",
+          "frame": "9"
+        },
+        {
+          "key": "enemy-punk-red-motion",
+          "frame": "4"
+        },
+        {
+          "key": "enemy-punk-red-motion",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 11.54,
+      "repeat": 0
+    },
+    "enemy-punk-red-down": {
+      "key": "enemy-punk-red-down",
+      "frames": [
+        {
+          "key": "enemy-punk-red-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "enemy-punk-red-dead": {
+      "key": "enemy-punk-red-dead",
+      "frames": [
+        {
+          "key": "enemy-punk-red-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "enemy-punk-red-getup": {
+      "key": "enemy-punk-red-getup",
+      "frames": [
+        {
+          "key": "enemy-punk-red",
+          "frame": "11"
+        },
+        {
+          "key": "enemy-punk-red-motion",
+          "frame": "7"
+        },
+        {
+          "key": "enemy-punk-red",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-1-idle": {
+      "key": "boss-1-idle",
+      "frames": [
+        {
+          "key": "boss-1",
+          "frame": "0"
+        },
+        {
+          "key": "boss-1",
+          "frame": "1"
+        }
+      ],
+      "frameRate": 3,
+      "repeat": -1
+    },
+    "boss-1-walk": {
+      "key": "boss-1-walk",
+      "frames": [
+        {
+          "key": "boss-1",
+          "frame": "2"
+        },
+        {
+          "key": "boss-1",
+          "frame": "3"
+        },
+        {
+          "key": "boss-1",
+          "frame": "4"
+        },
+        {
+          "key": "boss-1",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 9,
+      "repeat": -1
+    },
+    "boss-1-windup": {
+      "key": "boss-1-windup",
+      "frames": [
+        {
+          "key": "boss-1-motion",
+          "frame": "1"
+        },
+        {
+          "key": "boss-1",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 5,
+      "repeat": 0
+    },
+    "boss-1-attack": {
+      "key": "boss-1-attack",
+      "frames": [
+        {
+          "key": "boss-1",
+          "frame": "7"
+        },
+        {
+          "key": "boss-1-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-1",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 12.5,
+      "repeat": 0
+    },
+    "boss-1-charge": {
+      "key": "boss-1-charge",
+      "frames": [
+        {
+          "key": "boss-1",
+          "frame": "8"
+        },
+        {
+          "key": "boss-1-motion",
+          "frame": "3"
+        }
+      ],
+      "frameRate": 12,
+      "repeat": -1
+    },
+    "boss-1-hurt": {
+      "key": "boss-1-hurt",
+      "frames": [
+        {
+          "key": "boss-1",
+          "frame": "9"
+        },
+        {
+          "key": "boss-1-motion",
+          "frame": "4"
+        },
+        {
+          "key": "boss-1-motion",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 11.54,
+      "repeat": 0
+    },
+    "boss-1-down": {
+      "key": "boss-1-down",
+      "frames": [
+        {
+          "key": "boss-1-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-1-dead": {
+      "key": "boss-1-dead",
+      "frames": [
+        {
+          "key": "boss-1-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-1-getup": {
+      "key": "boss-1-getup",
+      "frames": [
+        {
+          "key": "boss-1",
+          "frame": "11"
+        },
+        {
+          "key": "boss-1-motion",
+          "frame": "7"
+        },
+        {
+          "key": "boss-1",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "enemy-mohawk-idle": {
+      "key": "enemy-mohawk-idle",
+      "frames": [
+        {
+          "key": "enemy-mohawk",
+          "frame": "0"
+        },
+        {
+          "key": "enemy-mohawk",
+          "frame": "1"
+        }
+      ],
+      "frameRate": 3,
+      "repeat": -1
+    },
+    "enemy-mohawk-walk": {
+      "key": "enemy-mohawk-walk",
+      "frames": [
+        {
+          "key": "enemy-mohawk",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-mohawk",
+          "frame": "3"
+        },
+        {
+          "key": "enemy-mohawk",
+          "frame": "4"
+        },
+        {
+          "key": "enemy-mohawk",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 9,
+      "repeat": -1
+    },
+    "enemy-mohawk-windup": {
+      "key": "enemy-mohawk-windup",
+      "frames": [
+        {
+          "key": "enemy-mohawk-motion",
+          "frame": "1"
+        },
+        {
+          "key": "enemy-mohawk",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 5,
+      "repeat": 0
+    },
+    "enemy-mohawk-attack": {
+      "key": "enemy-mohawk-attack",
+      "frames": [
+        {
+          "key": "enemy-mohawk",
+          "frame": "7"
+        },
+        {
+          "key": "enemy-mohawk-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-mohawk",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 9.375,
+      "repeat": 0
+    },
+    "enemy-mohawk-charge": {
+      "key": "enemy-mohawk-charge",
+      "frames": [
+        {
+          "key": "enemy-mohawk",
+          "frame": "8"
+        },
+        {
+          "key": "enemy-mohawk-motion",
+          "frame": "3"
+        }
+      ],
+      "frameRate": 12,
+      "repeat": -1
+    },
+    "enemy-mohawk-hurt": {
+      "key": "enemy-mohawk-hurt",
+      "frames": [
+        {
+          "key": "enemy-mohawk",
+          "frame": "9"
+        },
+        {
+          "key": "enemy-mohawk-motion",
+          "frame": "4"
+        },
+        {
+          "key": "enemy-mohawk-motion",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 11.54,
+      "repeat": 0
+    },
+    "enemy-mohawk-down": {
+      "key": "enemy-mohawk-down",
+      "frames": [
+        {
+          "key": "enemy-mohawk-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "enemy-mohawk-dead": {
+      "key": "enemy-mohawk-dead",
+      "frames": [
+        {
+          "key": "enemy-mohawk-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "enemy-mohawk-getup": {
+      "key": "enemy-mohawk-getup",
+      "frames": [
+        {
+          "key": "enemy-mohawk",
+          "frame": "11"
+        },
+        {
+          "key": "enemy-mohawk-motion",
+          "frame": "7"
+        },
+        {
+          "key": "enemy-mohawk",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "enemy-mohawk-shoot": {
+      "key": "enemy-mohawk-shoot",
+      "frames": [
+        {
+          "key": "enemy-mohawk",
+          "frame": "12"
+        },
+        {
+          "key": "enemy-mohawk-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-mohawk",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 10,
+      "repeat": 0
+    },
+    "enemy-mohawk-slam": {
+      "key": "enemy-mohawk-slam",
+      "frames": [
+        {
+          "key": "enemy-mohawk",
+          "frame": "13"
+        },
+        {
+          "key": "enemy-mohawk-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-mohawk",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "enemy-mohawk-summon": {
+      "key": "enemy-mohawk-summon",
+      "frames": [
+        {
+          "key": "enemy-mohawk",
+          "frame": "14"
+        },
+        {
+          "key": "enemy-mohawk-motion",
+          "frame": "0"
+        },
+        {
+          "key": "enemy-mohawk",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6,
+      "repeat": 0
+    },
+    "enemy-mohawk-special": {
+      "key": "enemy-mohawk-special",
+      "frames": [
+        {
+          "key": "enemy-mohawk",
+          "frame": "15"
+        },
+        {
+          "key": "enemy-mohawk-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-mohawk",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 7.5,
+      "repeat": 0
+    },
+    "enemy-chain-idle": {
+      "key": "enemy-chain-idle",
+      "frames": [
+        {
+          "key": "enemy-chain",
+          "frame": "0"
+        },
+        {
+          "key": "enemy-chain",
+          "frame": "1"
+        }
+      ],
+      "frameRate": 3,
+      "repeat": -1
+    },
+    "enemy-chain-walk": {
+      "key": "enemy-chain-walk",
+      "frames": [
+        {
+          "key": "enemy-chain",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-chain",
+          "frame": "3"
+        },
+        {
+          "key": "enemy-chain",
+          "frame": "4"
+        },
+        {
+          "key": "enemy-chain",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 9,
+      "repeat": -1
+    },
+    "enemy-chain-windup": {
+      "key": "enemy-chain-windup",
+      "frames": [
+        {
+          "key": "enemy-chain-motion",
+          "frame": "1"
+        },
+        {
+          "key": "enemy-chain",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 5,
+      "repeat": 0
+    },
+    "enemy-chain-attack": {
+      "key": "enemy-chain-attack",
+      "frames": [
+        {
+          "key": "enemy-chain",
+          "frame": "7"
+        },
+        {
+          "key": "enemy-chain-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-chain",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 9.375,
+      "repeat": 0
+    },
+    "enemy-chain-charge": {
+      "key": "enemy-chain-charge",
+      "frames": [
+        {
+          "key": "enemy-chain",
+          "frame": "8"
+        },
+        {
+          "key": "enemy-chain-motion",
+          "frame": "3"
+        }
+      ],
+      "frameRate": 12,
+      "repeat": -1
+    },
+    "enemy-chain-hurt": {
+      "key": "enemy-chain-hurt",
+      "frames": [
+        {
+          "key": "enemy-chain",
+          "frame": "9"
+        },
+        {
+          "key": "enemy-chain-motion",
+          "frame": "4"
+        },
+        {
+          "key": "enemy-chain-motion",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 11.54,
+      "repeat": 0
+    },
+    "enemy-chain-down": {
+      "key": "enemy-chain-down",
+      "frames": [
+        {
+          "key": "enemy-chain-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "enemy-chain-dead": {
+      "key": "enemy-chain-dead",
+      "frames": [
+        {
+          "key": "enemy-chain-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "enemy-chain-getup": {
+      "key": "enemy-chain-getup",
+      "frames": [
+        {
+          "key": "enemy-chain",
+          "frame": "11"
+        },
+        {
+          "key": "enemy-chain-motion",
+          "frame": "7"
+        },
+        {
+          "key": "enemy-chain",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "enemy-chain-shoot": {
+      "key": "enemy-chain-shoot",
+      "frames": [
+        {
+          "key": "enemy-chain",
+          "frame": "12"
+        },
+        {
+          "key": "enemy-chain-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-chain",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 10,
+      "repeat": 0
+    },
+    "enemy-chain-slam": {
+      "key": "enemy-chain-slam",
+      "frames": [
+        {
+          "key": "enemy-chain",
+          "frame": "13"
+        },
+        {
+          "key": "enemy-chain-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-chain",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "enemy-chain-summon": {
+      "key": "enemy-chain-summon",
+      "frames": [
+        {
+          "key": "enemy-chain",
+          "frame": "14"
+        },
+        {
+          "key": "enemy-chain-motion",
+          "frame": "0"
+        },
+        {
+          "key": "enemy-chain",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6,
+      "repeat": 0
+    },
+    "enemy-chain-special": {
+      "key": "enemy-chain-special",
+      "frames": [
+        {
+          "key": "enemy-chain",
+          "frame": "15"
+        },
+        {
+          "key": "enemy-chain-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-chain",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 7.5,
+      "repeat": 0
+    },
+    "enemy-skinhead-idle": {
+      "key": "enemy-skinhead-idle",
+      "frames": [
+        {
+          "key": "enemy-skinhead",
+          "frame": "0"
+        },
+        {
+          "key": "enemy-skinhead",
+          "frame": "1"
+        }
+      ],
+      "frameRate": 3,
+      "repeat": -1
+    },
+    "enemy-skinhead-walk": {
+      "key": "enemy-skinhead-walk",
+      "frames": [
+        {
+          "key": "enemy-skinhead",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-skinhead",
+          "frame": "3"
+        },
+        {
+          "key": "enemy-skinhead",
+          "frame": "4"
+        },
+        {
+          "key": "enemy-skinhead",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 9,
+      "repeat": -1
+    },
+    "enemy-skinhead-windup": {
+      "key": "enemy-skinhead-windup",
+      "frames": [
+        {
+          "key": "enemy-skinhead-motion",
+          "frame": "1"
+        },
+        {
+          "key": "enemy-skinhead",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 5,
+      "repeat": 0
+    },
+    "enemy-skinhead-attack": {
+      "key": "enemy-skinhead-attack",
+      "frames": [
+        {
+          "key": "enemy-skinhead",
+          "frame": "7"
+        },
+        {
+          "key": "enemy-skinhead-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-skinhead",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 9.375,
+      "repeat": 0
+    },
+    "enemy-skinhead-charge": {
+      "key": "enemy-skinhead-charge",
+      "frames": [
+        {
+          "key": "enemy-skinhead",
+          "frame": "8"
+        },
+        {
+          "key": "enemy-skinhead-motion",
+          "frame": "3"
+        }
+      ],
+      "frameRate": 12,
+      "repeat": -1
+    },
+    "enemy-skinhead-hurt": {
+      "key": "enemy-skinhead-hurt",
+      "frames": [
+        {
+          "key": "enemy-skinhead",
+          "frame": "9"
+        },
+        {
+          "key": "enemy-skinhead-motion",
+          "frame": "4"
+        },
+        {
+          "key": "enemy-skinhead-motion",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 11.54,
+      "repeat": 0
+    },
+    "enemy-skinhead-down": {
+      "key": "enemy-skinhead-down",
+      "frames": [
+        {
+          "key": "enemy-skinhead-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "enemy-skinhead-dead": {
+      "key": "enemy-skinhead-dead",
+      "frames": [
+        {
+          "key": "enemy-skinhead-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "enemy-skinhead-getup": {
+      "key": "enemy-skinhead-getup",
+      "frames": [
+        {
+          "key": "enemy-skinhead",
+          "frame": "11"
+        },
+        {
+          "key": "enemy-skinhead-motion",
+          "frame": "7"
+        },
+        {
+          "key": "enemy-skinhead",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "enemy-skinhead-shoot": {
+      "key": "enemy-skinhead-shoot",
+      "frames": [
+        {
+          "key": "enemy-skinhead",
+          "frame": "12"
+        },
+        {
+          "key": "enemy-skinhead-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-skinhead",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 10,
+      "repeat": 0
+    },
+    "enemy-skinhead-slam": {
+      "key": "enemy-skinhead-slam",
+      "frames": [
+        {
+          "key": "enemy-skinhead",
+          "frame": "13"
+        },
+        {
+          "key": "enemy-skinhead-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-skinhead",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "enemy-skinhead-summon": {
+      "key": "enemy-skinhead-summon",
+      "frames": [
+        {
+          "key": "enemy-skinhead",
+          "frame": "14"
+        },
+        {
+          "key": "enemy-skinhead-motion",
+          "frame": "0"
+        },
+        {
+          "key": "enemy-skinhead",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6,
+      "repeat": 0
+    },
+    "enemy-skinhead-special": {
+      "key": "enemy-skinhead-special",
+      "frames": [
+        {
+          "key": "enemy-skinhead",
+          "frame": "15"
+        },
+        {
+          "key": "enemy-skinhead-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-skinhead",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 7.5,
+      "repeat": 0
+    },
+    "enemy-thrower-idle": {
+      "key": "enemy-thrower-idle",
+      "frames": [
+        {
+          "key": "enemy-thrower",
+          "frame": "0"
+        },
+        {
+          "key": "enemy-thrower",
+          "frame": "1"
+        }
+      ],
+      "frameRate": 3,
+      "repeat": -1
+    },
+    "enemy-thrower-walk": {
+      "key": "enemy-thrower-walk",
+      "frames": [
+        {
+          "key": "enemy-thrower",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-thrower",
+          "frame": "3"
+        },
+        {
+          "key": "enemy-thrower",
+          "frame": "4"
+        },
+        {
+          "key": "enemy-thrower",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 9,
+      "repeat": -1
+    },
+    "enemy-thrower-windup": {
+      "key": "enemy-thrower-windup",
+      "frames": [
+        {
+          "key": "enemy-thrower-motion",
+          "frame": "1"
+        },
+        {
+          "key": "enemy-thrower",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 5,
+      "repeat": 0
+    },
+    "enemy-thrower-attack": {
+      "key": "enemy-thrower-attack",
+      "frames": [
+        {
+          "key": "enemy-thrower",
+          "frame": "7"
+        },
+        {
+          "key": "enemy-thrower-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-thrower",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 9.375,
+      "repeat": 0
+    },
+    "enemy-thrower-charge": {
+      "key": "enemy-thrower-charge",
+      "frames": [
+        {
+          "key": "enemy-thrower",
+          "frame": "8"
+        },
+        {
+          "key": "enemy-thrower-motion",
+          "frame": "3"
+        }
+      ],
+      "frameRate": 12,
+      "repeat": -1
+    },
+    "enemy-thrower-hurt": {
+      "key": "enemy-thrower-hurt",
+      "frames": [
+        {
+          "key": "enemy-thrower",
+          "frame": "9"
+        },
+        {
+          "key": "enemy-thrower-motion",
+          "frame": "4"
+        },
+        {
+          "key": "enemy-thrower-motion",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 11.54,
+      "repeat": 0
+    },
+    "enemy-thrower-down": {
+      "key": "enemy-thrower-down",
+      "frames": [
+        {
+          "key": "enemy-thrower-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "enemy-thrower-dead": {
+      "key": "enemy-thrower-dead",
+      "frames": [
+        {
+          "key": "enemy-thrower-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "enemy-thrower-getup": {
+      "key": "enemy-thrower-getup",
+      "frames": [
+        {
+          "key": "enemy-thrower",
+          "frame": "11"
+        },
+        {
+          "key": "enemy-thrower-motion",
+          "frame": "7"
+        },
+        {
+          "key": "enemy-thrower",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "enemy-thrower-shoot": {
+      "key": "enemy-thrower-shoot",
+      "frames": [
+        {
+          "key": "enemy-thrower",
+          "frame": "12"
+        },
+        {
+          "key": "enemy-thrower-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-thrower",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 10,
+      "repeat": 0
+    },
+    "enemy-thrower-slam": {
+      "key": "enemy-thrower-slam",
+      "frames": [
+        {
+          "key": "enemy-thrower",
+          "frame": "13"
+        },
+        {
+          "key": "enemy-thrower-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-thrower",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "enemy-thrower-summon": {
+      "key": "enemy-thrower-summon",
+      "frames": [
+        {
+          "key": "enemy-thrower",
+          "frame": "14"
+        },
+        {
+          "key": "enemy-thrower-motion",
+          "frame": "0"
+        },
+        {
+          "key": "enemy-thrower",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6,
+      "repeat": 0
+    },
+    "enemy-thrower-special": {
+      "key": "enemy-thrower-special",
+      "frames": [
+        {
+          "key": "enemy-thrower",
+          "frame": "15"
+        },
+        {
+          "key": "enemy-thrower-motion",
+          "frame": "2"
+        },
+        {
+          "key": "enemy-thrower",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 7.5,
+      "repeat": 0
+    },
+    "boss-2-idle": {
+      "key": "boss-2-idle",
+      "frames": [
+        {
+          "key": "boss-2",
+          "frame": "0"
+        },
+        {
+          "key": "boss-2",
+          "frame": "1"
+        }
+      ],
+      "frameRate": 3,
+      "repeat": -1
+    },
+    "boss-2-walk": {
+      "key": "boss-2-walk",
+      "frames": [
+        {
+          "key": "boss-2",
+          "frame": "2"
+        },
+        {
+          "key": "boss-2",
+          "frame": "3"
+        },
+        {
+          "key": "boss-2",
+          "frame": "4"
+        },
+        {
+          "key": "boss-2",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 9,
+      "repeat": -1
+    },
+    "boss-2-windup": {
+      "key": "boss-2-windup",
+      "frames": [
+        {
+          "key": "boss-2-motion",
+          "frame": "1"
+        },
+        {
+          "key": "boss-2",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 5,
+      "repeat": 0
+    },
+    "boss-2-attack": {
+      "key": "boss-2-attack",
+      "frames": [
+        {
+          "key": "boss-2",
+          "frame": "7"
+        },
+        {
+          "key": "boss-2-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-2",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 12.5,
+      "repeat": 0
+    },
+    "boss-2-charge": {
+      "key": "boss-2-charge",
+      "frames": [
+        {
+          "key": "boss-2",
+          "frame": "8"
+        },
+        {
+          "key": "boss-2-motion",
+          "frame": "3"
+        }
+      ],
+      "frameRate": 12,
+      "repeat": -1
+    },
+    "boss-2-hurt": {
+      "key": "boss-2-hurt",
+      "frames": [
+        {
+          "key": "boss-2",
+          "frame": "9"
+        },
+        {
+          "key": "boss-2-motion",
+          "frame": "4"
+        },
+        {
+          "key": "boss-2-motion",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 11.54,
+      "repeat": 0
+    },
+    "boss-2-down": {
+      "key": "boss-2-down",
+      "frames": [
+        {
+          "key": "boss-2-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-2-dead": {
+      "key": "boss-2-dead",
+      "frames": [
+        {
+          "key": "boss-2-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-2-getup": {
+      "key": "boss-2-getup",
+      "frames": [
+        {
+          "key": "boss-2",
+          "frame": "11"
+        },
+        {
+          "key": "boss-2-motion",
+          "frame": "7"
+        },
+        {
+          "key": "boss-2",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-2-shoot": {
+      "key": "boss-2-shoot",
+      "frames": [
+        {
+          "key": "boss-2",
+          "frame": "12"
+        },
+        {
+          "key": "boss-2-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-2",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 10,
+      "repeat": 0
+    },
+    "boss-2-slam": {
+      "key": "boss-2-slam",
+      "frames": [
+        {
+          "key": "boss-2",
+          "frame": "13"
+        },
+        {
+          "key": "boss-2-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-2",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-2-summon": {
+      "key": "boss-2-summon",
+      "frames": [
+        {
+          "key": "boss-2",
+          "frame": "14"
+        },
+        {
+          "key": "boss-2-motion",
+          "frame": "0"
+        },
+        {
+          "key": "boss-2",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6,
+      "repeat": 0
+    },
+    "boss-2-special": {
+      "key": "boss-2-special",
+      "frames": [
+        {
+          "key": "boss-2",
+          "frame": "15"
+        },
+        {
+          "key": "boss-2-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-2",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 7.5,
+      "repeat": 0
+    },
+    "boss-3-idle": {
+      "key": "boss-3-idle",
+      "frames": [
+        {
+          "key": "boss-3",
+          "frame": "0"
+        },
+        {
+          "key": "boss-3",
+          "frame": "1"
+        }
+      ],
+      "frameRate": 3,
+      "repeat": -1
+    },
+    "boss-3-walk": {
+      "key": "boss-3-walk",
+      "frames": [
+        {
+          "key": "boss-3",
+          "frame": "2"
+        },
+        {
+          "key": "boss-3",
+          "frame": "3"
+        },
+        {
+          "key": "boss-3",
+          "frame": "4"
+        },
+        {
+          "key": "boss-3",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 9,
+      "repeat": -1
+    },
+    "boss-3-windup": {
+      "key": "boss-3-windup",
+      "frames": [
+        {
+          "key": "boss-3-motion",
+          "frame": "1"
+        },
+        {
+          "key": "boss-3",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 5,
+      "repeat": 0
+    },
+    "boss-3-attack": {
+      "key": "boss-3-attack",
+      "frames": [
+        {
+          "key": "boss-3",
+          "frame": "7"
+        },
+        {
+          "key": "boss-3-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-3",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 12.5,
+      "repeat": 0
+    },
+    "boss-3-charge": {
+      "key": "boss-3-charge",
+      "frames": [
+        {
+          "key": "boss-3",
+          "frame": "8"
+        },
+        {
+          "key": "boss-3-motion",
+          "frame": "3"
+        }
+      ],
+      "frameRate": 12,
+      "repeat": -1
+    },
+    "boss-3-hurt": {
+      "key": "boss-3-hurt",
+      "frames": [
+        {
+          "key": "boss-3",
+          "frame": "9"
+        },
+        {
+          "key": "boss-3-motion",
+          "frame": "4"
+        },
+        {
+          "key": "boss-3-motion",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 11.54,
+      "repeat": 0
+    },
+    "boss-3-down": {
+      "key": "boss-3-down",
+      "frames": [
+        {
+          "key": "boss-3-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-3-dead": {
+      "key": "boss-3-dead",
+      "frames": [
+        {
+          "key": "boss-3-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-3-getup": {
+      "key": "boss-3-getup",
+      "frames": [
+        {
+          "key": "boss-3",
+          "frame": "11"
+        },
+        {
+          "key": "boss-3-motion",
+          "frame": "7"
+        },
+        {
+          "key": "boss-3",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-3-shoot": {
+      "key": "boss-3-shoot",
+      "frames": [
+        {
+          "key": "boss-3",
+          "frame": "12"
+        },
+        {
+          "key": "boss-3-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-3",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 10,
+      "repeat": 0
+    },
+    "boss-3-slam": {
+      "key": "boss-3-slam",
+      "frames": [
+        {
+          "key": "boss-3",
+          "frame": "13"
+        },
+        {
+          "key": "boss-3-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-3",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-3-summon": {
+      "key": "boss-3-summon",
+      "frames": [
+        {
+          "key": "boss-3",
+          "frame": "14"
+        },
+        {
+          "key": "boss-3-motion",
+          "frame": "0"
+        },
+        {
+          "key": "boss-3",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6,
+      "repeat": 0
+    },
+    "boss-3-special": {
+      "key": "boss-3-special",
+      "frames": [
+        {
+          "key": "boss-3",
+          "frame": "15"
+        },
+        {
+          "key": "boss-3-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-3",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 7.5,
+      "repeat": 0
+    },
+    "boss-4-idle": {
+      "key": "boss-4-idle",
+      "frames": [
+        {
+          "key": "boss-4",
+          "frame": "0"
+        },
+        {
+          "key": "boss-4",
+          "frame": "1"
+        }
+      ],
+      "frameRate": 3,
+      "repeat": -1
+    },
+    "boss-4-walk": {
+      "key": "boss-4-walk",
+      "frames": [
+        {
+          "key": "boss-4",
+          "frame": "2"
+        },
+        {
+          "key": "boss-4",
+          "frame": "3"
+        },
+        {
+          "key": "boss-4",
+          "frame": "4"
+        },
+        {
+          "key": "boss-4",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 9,
+      "repeat": -1
+    },
+    "boss-4-windup": {
+      "key": "boss-4-windup",
+      "frames": [
+        {
+          "key": "boss-4-motion",
+          "frame": "1"
+        },
+        {
+          "key": "boss-4",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 5,
+      "repeat": 0
+    },
+    "boss-4-attack": {
+      "key": "boss-4-attack",
+      "frames": [
+        {
+          "key": "boss-4",
+          "frame": "7"
+        },
+        {
+          "key": "boss-4-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-4",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 12.5,
+      "repeat": 0
+    },
+    "boss-4-charge": {
+      "key": "boss-4-charge",
+      "frames": [
+        {
+          "key": "boss-4",
+          "frame": "8"
+        },
+        {
+          "key": "boss-4-motion",
+          "frame": "3"
+        }
+      ],
+      "frameRate": 12,
+      "repeat": -1
+    },
+    "boss-4-hurt": {
+      "key": "boss-4-hurt",
+      "frames": [
+        {
+          "key": "boss-4",
+          "frame": "9"
+        },
+        {
+          "key": "boss-4-motion",
+          "frame": "4"
+        },
+        {
+          "key": "boss-4-motion",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 11.54,
+      "repeat": 0
+    },
+    "boss-4-down": {
+      "key": "boss-4-down",
+      "frames": [
+        {
+          "key": "boss-4-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-4-dead": {
+      "key": "boss-4-dead",
+      "frames": [
+        {
+          "key": "boss-4-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-4-getup": {
+      "key": "boss-4-getup",
+      "frames": [
+        {
+          "key": "boss-4",
+          "frame": "11"
+        },
+        {
+          "key": "boss-4-motion",
+          "frame": "7"
+        },
+        {
+          "key": "boss-4",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-4-shoot": {
+      "key": "boss-4-shoot",
+      "frames": [
+        {
+          "key": "boss-4",
+          "frame": "12"
+        },
+        {
+          "key": "boss-4-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-4",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 10,
+      "repeat": 0
+    },
+    "boss-4-slam": {
+      "key": "boss-4-slam",
+      "frames": [
+        {
+          "key": "boss-4",
+          "frame": "13"
+        },
+        {
+          "key": "boss-4-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-4",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-4-summon": {
+      "key": "boss-4-summon",
+      "frames": [
+        {
+          "key": "boss-4",
+          "frame": "14"
+        },
+        {
+          "key": "boss-4-motion",
+          "frame": "0"
+        },
+        {
+          "key": "boss-4",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6,
+      "repeat": 0
+    },
+    "boss-4-special": {
+      "key": "boss-4-special",
+      "frames": [
+        {
+          "key": "boss-4",
+          "frame": "15"
+        },
+        {
+          "key": "boss-4-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-4",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 7.5,
+      "repeat": 0
+    },
+    "boss-5-idle": {
+      "key": "boss-5-idle",
+      "frames": [
+        {
+          "key": "boss-5",
+          "frame": "0"
+        },
+        {
+          "key": "boss-5",
+          "frame": "1"
+        }
+      ],
+      "frameRate": 3,
+      "repeat": -1
+    },
+    "boss-5-walk": {
+      "key": "boss-5-walk",
+      "frames": [
+        {
+          "key": "boss-5",
+          "frame": "2"
+        },
+        {
+          "key": "boss-5",
+          "frame": "3"
+        },
+        {
+          "key": "boss-5",
+          "frame": "4"
+        },
+        {
+          "key": "boss-5",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 9,
+      "repeat": -1
+    },
+    "boss-5-windup": {
+      "key": "boss-5-windup",
+      "frames": [
+        {
+          "key": "boss-5-motion",
+          "frame": "1"
+        },
+        {
+          "key": "boss-5",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 5,
+      "repeat": 0
+    },
+    "boss-5-attack": {
+      "key": "boss-5-attack",
+      "frames": [
+        {
+          "key": "boss-5",
+          "frame": "7"
+        },
+        {
+          "key": "boss-5-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-5",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 12.5,
+      "repeat": 0
+    },
+    "boss-5-charge": {
+      "key": "boss-5-charge",
+      "frames": [
+        {
+          "key": "boss-5",
+          "frame": "8"
+        },
+        {
+          "key": "boss-5-motion",
+          "frame": "3"
+        }
+      ],
+      "frameRate": 12,
+      "repeat": -1
+    },
+    "boss-5-hurt": {
+      "key": "boss-5-hurt",
+      "frames": [
+        {
+          "key": "boss-5",
+          "frame": "9"
+        },
+        {
+          "key": "boss-5-motion",
+          "frame": "4"
+        },
+        {
+          "key": "boss-5-motion",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 11.54,
+      "repeat": 0
+    },
+    "boss-5-down": {
+      "key": "boss-5-down",
+      "frames": [
+        {
+          "key": "boss-5-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-5-dead": {
+      "key": "boss-5-dead",
+      "frames": [
+        {
+          "key": "boss-5-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-5-getup": {
+      "key": "boss-5-getup",
+      "frames": [
+        {
+          "key": "boss-5",
+          "frame": "11"
+        },
+        {
+          "key": "boss-5-motion",
+          "frame": "7"
+        },
+        {
+          "key": "boss-5",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-5-shoot": {
+      "key": "boss-5-shoot",
+      "frames": [
+        {
+          "key": "boss-5",
+          "frame": "12"
+        },
+        {
+          "key": "boss-5-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-5",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 10,
+      "repeat": 0
+    },
+    "boss-5-slam": {
+      "key": "boss-5-slam",
+      "frames": [
+        {
+          "key": "boss-5",
+          "frame": "13"
+        },
+        {
+          "key": "boss-5-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-5",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-5-summon": {
+      "key": "boss-5-summon",
+      "frames": [
+        {
+          "key": "boss-5",
+          "frame": "14"
+        },
+        {
+          "key": "boss-5-motion",
+          "frame": "0"
+        },
+        {
+          "key": "boss-5",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6,
+      "repeat": 0
+    },
+    "boss-5-special": {
+      "key": "boss-5-special",
+      "frames": [
+        {
+          "key": "boss-5",
+          "frame": "15"
+        },
+        {
+          "key": "boss-5-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-5",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 7.5,
+      "repeat": 0
+    },
+    "boss-6-idle": {
+      "key": "boss-6-idle",
+      "frames": [
+        {
+          "key": "boss-6",
+          "frame": "0"
+        },
+        {
+          "key": "boss-6",
+          "frame": "1"
+        }
+      ],
+      "frameRate": 3,
+      "repeat": -1
+    },
+    "boss-6-walk": {
+      "key": "boss-6-walk",
+      "frames": [
+        {
+          "key": "boss-6",
+          "frame": "2"
+        },
+        {
+          "key": "boss-6",
+          "frame": "3"
+        },
+        {
+          "key": "boss-6",
+          "frame": "4"
+        },
+        {
+          "key": "boss-6",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 9,
+      "repeat": -1
+    },
+    "boss-6-windup": {
+      "key": "boss-6-windup",
+      "frames": [
+        {
+          "key": "boss-6-motion",
+          "frame": "1"
+        },
+        {
+          "key": "boss-6",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 5,
+      "repeat": 0
+    },
+    "boss-6-attack": {
+      "key": "boss-6-attack",
+      "frames": [
+        {
+          "key": "boss-6",
+          "frame": "7"
+        },
+        {
+          "key": "boss-6-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-6",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 12.5,
+      "repeat": 0
+    },
+    "boss-6-charge": {
+      "key": "boss-6-charge",
+      "frames": [
+        {
+          "key": "boss-6",
+          "frame": "8"
+        },
+        {
+          "key": "boss-6-motion",
+          "frame": "3"
+        }
+      ],
+      "frameRate": 12,
+      "repeat": -1
+    },
+    "boss-6-hurt": {
+      "key": "boss-6-hurt",
+      "frames": [
+        {
+          "key": "boss-6",
+          "frame": "9"
+        },
+        {
+          "key": "boss-6-motion",
+          "frame": "4"
+        },
+        {
+          "key": "boss-6-motion",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 11.54,
+      "repeat": 0
+    },
+    "boss-6-down": {
+      "key": "boss-6-down",
+      "frames": [
+        {
+          "key": "boss-6-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-6-dead": {
+      "key": "boss-6-dead",
+      "frames": [
+        {
+          "key": "boss-6-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-6-getup": {
+      "key": "boss-6-getup",
+      "frames": [
+        {
+          "key": "boss-6",
+          "frame": "11"
+        },
+        {
+          "key": "boss-6-motion",
+          "frame": "7"
+        },
+        {
+          "key": "boss-6",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-6-shoot": {
+      "key": "boss-6-shoot",
+      "frames": [
+        {
+          "key": "boss-6",
+          "frame": "12"
+        },
+        {
+          "key": "boss-6-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-6",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 10,
+      "repeat": 0
+    },
+    "boss-6-slam": {
+      "key": "boss-6-slam",
+      "frames": [
+        {
+          "key": "boss-6",
+          "frame": "13"
+        },
+        {
+          "key": "boss-6-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-6",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-6-summon": {
+      "key": "boss-6-summon",
+      "frames": [
+        {
+          "key": "boss-6",
+          "frame": "14"
+        },
+        {
+          "key": "boss-6-motion",
+          "frame": "0"
+        },
+        {
+          "key": "boss-6",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6,
+      "repeat": 0
+    },
+    "boss-6-special": {
+      "key": "boss-6-special",
+      "frames": [
+        {
+          "key": "boss-6",
+          "frame": "15"
+        },
+        {
+          "key": "boss-6-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-6",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 7.5,
+      "repeat": 0
+    },
+    "boss-7-idle": {
+      "key": "boss-7-idle",
+      "frames": [
+        {
+          "key": "boss-7",
+          "frame": "0"
+        },
+        {
+          "key": "boss-7",
+          "frame": "1"
+        }
+      ],
+      "frameRate": 3,
+      "repeat": -1
+    },
+    "boss-7-walk": {
+      "key": "boss-7-walk",
+      "frames": [
+        {
+          "key": "boss-7",
+          "frame": "2"
+        },
+        {
+          "key": "boss-7",
+          "frame": "3"
+        },
+        {
+          "key": "boss-7",
+          "frame": "4"
+        },
+        {
+          "key": "boss-7",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 9,
+      "repeat": -1
+    },
+    "boss-7-windup": {
+      "key": "boss-7-windup",
+      "frames": [
+        {
+          "key": "boss-7-motion",
+          "frame": "1"
+        },
+        {
+          "key": "boss-7",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 5,
+      "repeat": 0
+    },
+    "boss-7-attack": {
+      "key": "boss-7-attack",
+      "frames": [
+        {
+          "key": "boss-7",
+          "frame": "7"
+        },
+        {
+          "key": "boss-7-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-7",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 12.5,
+      "repeat": 0
+    },
+    "boss-7-charge": {
+      "key": "boss-7-charge",
+      "frames": [
+        {
+          "key": "boss-7",
+          "frame": "8"
+        },
+        {
+          "key": "boss-7-motion",
+          "frame": "3"
+        }
+      ],
+      "frameRate": 12,
+      "repeat": -1
+    },
+    "boss-7-hurt": {
+      "key": "boss-7-hurt",
+      "frames": [
+        {
+          "key": "boss-7",
+          "frame": "9"
+        },
+        {
+          "key": "boss-7-motion",
+          "frame": "4"
+        },
+        {
+          "key": "boss-7-motion",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 11.54,
+      "repeat": 0
+    },
+    "boss-7-down": {
+      "key": "boss-7-down",
+      "frames": [
+        {
+          "key": "boss-7-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-7-dead": {
+      "key": "boss-7-dead",
+      "frames": [
+        {
+          "key": "boss-7-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-7-getup": {
+      "key": "boss-7-getup",
+      "frames": [
+        {
+          "key": "boss-7",
+          "frame": "11"
+        },
+        {
+          "key": "boss-7-motion",
+          "frame": "7"
+        },
+        {
+          "key": "boss-7",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-7-shoot": {
+      "key": "boss-7-shoot",
+      "frames": [
+        {
+          "key": "boss-7",
+          "frame": "12"
+        },
+        {
+          "key": "boss-7-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-7",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 10,
+      "repeat": 0
+    },
+    "boss-7-slam": {
+      "key": "boss-7-slam",
+      "frames": [
+        {
+          "key": "boss-7",
+          "frame": "13"
+        },
+        {
+          "key": "boss-7-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-7",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-7-summon": {
+      "key": "boss-7-summon",
+      "frames": [
+        {
+          "key": "boss-7",
+          "frame": "14"
+        },
+        {
+          "key": "boss-7-motion",
+          "frame": "0"
+        },
+        {
+          "key": "boss-7",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6,
+      "repeat": 0
+    },
+    "boss-7-special": {
+      "key": "boss-7-special",
+      "frames": [
+        {
+          "key": "boss-7",
+          "frame": "15"
+        },
+        {
+          "key": "boss-7-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-7",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 7.5,
+      "repeat": 0
+    },
+    "boss-8-idle": {
+      "key": "boss-8-idle",
+      "frames": [
+        {
+          "key": "boss-8",
+          "frame": "0"
+        },
+        {
+          "key": "boss-8",
+          "frame": "1"
+        }
+      ],
+      "frameRate": 3,
+      "repeat": -1
+    },
+    "boss-8-walk": {
+      "key": "boss-8-walk",
+      "frames": [
+        {
+          "key": "boss-8",
+          "frame": "2"
+        },
+        {
+          "key": "boss-8",
+          "frame": "3"
+        },
+        {
+          "key": "boss-8",
+          "frame": "4"
+        },
+        {
+          "key": "boss-8",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 9,
+      "repeat": -1
+    },
+    "boss-8-windup": {
+      "key": "boss-8-windup",
+      "frames": [
+        {
+          "key": "boss-8-motion",
+          "frame": "1"
+        },
+        {
+          "key": "boss-8",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 5,
+      "repeat": 0
+    },
+    "boss-8-attack": {
+      "key": "boss-8-attack",
+      "frames": [
+        {
+          "key": "boss-8",
+          "frame": "7"
+        },
+        {
+          "key": "boss-8-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-8",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 12.5,
+      "repeat": 0
+    },
+    "boss-8-charge": {
+      "key": "boss-8-charge",
+      "frames": [
+        {
+          "key": "boss-8",
+          "frame": "8"
+        },
+        {
+          "key": "boss-8-motion",
+          "frame": "3"
+        }
+      ],
+      "frameRate": 12,
+      "repeat": -1
+    },
+    "boss-8-hurt": {
+      "key": "boss-8-hurt",
+      "frames": [
+        {
+          "key": "boss-8",
+          "frame": "9"
+        },
+        {
+          "key": "boss-8-motion",
+          "frame": "4"
+        },
+        {
+          "key": "boss-8-motion",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 11.54,
+      "repeat": 0
+    },
+    "boss-8-down": {
+      "key": "boss-8-down",
+      "frames": [
+        {
+          "key": "boss-8-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-8-dead": {
+      "key": "boss-8-dead",
+      "frames": [
+        {
+          "key": "boss-8-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-8-getup": {
+      "key": "boss-8-getup",
+      "frames": [
+        {
+          "key": "boss-8",
+          "frame": "11"
+        },
+        {
+          "key": "boss-8-motion",
+          "frame": "7"
+        },
+        {
+          "key": "boss-8",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-8-shoot": {
+      "key": "boss-8-shoot",
+      "frames": [
+        {
+          "key": "boss-8",
+          "frame": "12"
+        },
+        {
+          "key": "boss-8-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-8",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 10,
+      "repeat": 0
+    },
+    "boss-8-slam": {
+      "key": "boss-8-slam",
+      "frames": [
+        {
+          "key": "boss-8",
+          "frame": "13"
+        },
+        {
+          "key": "boss-8-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-8",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-8-summon": {
+      "key": "boss-8-summon",
+      "frames": [
+        {
+          "key": "boss-8",
+          "frame": "14"
+        },
+        {
+          "key": "boss-8-motion",
+          "frame": "0"
+        },
+        {
+          "key": "boss-8",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6,
+      "repeat": 0
+    },
+    "boss-8-special": {
+      "key": "boss-8-special",
+      "frames": [
+        {
+          "key": "boss-8",
+          "frame": "15"
+        },
+        {
+          "key": "boss-8-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-8",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 7.5,
+      "repeat": 0
+    },
+    "boss-9-idle": {
+      "key": "boss-9-idle",
+      "frames": [
+        {
+          "key": "boss-9",
+          "frame": "0"
+        },
+        {
+          "key": "boss-9",
+          "frame": "1"
+        }
+      ],
+      "frameRate": 3,
+      "repeat": -1
+    },
+    "boss-9-walk": {
+      "key": "boss-9-walk",
+      "frames": [
+        {
+          "key": "boss-9",
+          "frame": "2"
+        },
+        {
+          "key": "boss-9",
+          "frame": "3"
+        },
+        {
+          "key": "boss-9",
+          "frame": "4"
+        },
+        {
+          "key": "boss-9",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 9,
+      "repeat": -1
+    },
+    "boss-9-windup": {
+      "key": "boss-9-windup",
+      "frames": [
+        {
+          "key": "boss-9-motion",
+          "frame": "1"
+        },
+        {
+          "key": "boss-9",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 5,
+      "repeat": 0
+    },
+    "boss-9-attack": {
+      "key": "boss-9-attack",
+      "frames": [
+        {
+          "key": "boss-9",
+          "frame": "7"
+        },
+        {
+          "key": "boss-9-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-9",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 12.5,
+      "repeat": 0
+    },
+    "boss-9-charge": {
+      "key": "boss-9-charge",
+      "frames": [
+        {
+          "key": "boss-9",
+          "frame": "8"
+        },
+        {
+          "key": "boss-9-motion",
+          "frame": "3"
+        }
+      ],
+      "frameRate": 12,
+      "repeat": -1
+    },
+    "boss-9-hurt": {
+      "key": "boss-9-hurt",
+      "frames": [
+        {
+          "key": "boss-9",
+          "frame": "9"
+        },
+        {
+          "key": "boss-9-motion",
+          "frame": "4"
+        },
+        {
+          "key": "boss-9-motion",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 11.54,
+      "repeat": 0
+    },
+    "boss-9-down": {
+      "key": "boss-9-down",
+      "frames": [
+        {
+          "key": "boss-9-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-9-dead": {
+      "key": "boss-9-dead",
+      "frames": [
+        {
+          "key": "boss-9-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-9-getup": {
+      "key": "boss-9-getup",
+      "frames": [
+        {
+          "key": "boss-9",
+          "frame": "11"
+        },
+        {
+          "key": "boss-9-motion",
+          "frame": "7"
+        },
+        {
+          "key": "boss-9",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-9-shoot": {
+      "key": "boss-9-shoot",
+      "frames": [
+        {
+          "key": "boss-9",
+          "frame": "12"
+        },
+        {
+          "key": "boss-9-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-9",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 10,
+      "repeat": 0
+    },
+    "boss-9-slam": {
+      "key": "boss-9-slam",
+      "frames": [
+        {
+          "key": "boss-9",
+          "frame": "13"
+        },
+        {
+          "key": "boss-9-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-9",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-9-summon": {
+      "key": "boss-9-summon",
+      "frames": [
+        {
+          "key": "boss-9",
+          "frame": "14"
+        },
+        {
+          "key": "boss-9-motion",
+          "frame": "0"
+        },
+        {
+          "key": "boss-9",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6,
+      "repeat": 0
+    },
+    "boss-9-special": {
+      "key": "boss-9-special",
+      "frames": [
+        {
+          "key": "boss-9",
+          "frame": "15"
+        },
+        {
+          "key": "boss-9-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-9",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 7.5,
+      "repeat": 0
+    },
+    "boss-10-idle": {
+      "key": "boss-10-idle",
+      "frames": [
+        {
+          "key": "boss-10",
+          "frame": "0"
+        },
+        {
+          "key": "boss-10",
+          "frame": "1"
+        }
+      ],
+      "frameRate": 3,
+      "repeat": -1
+    },
+    "boss-10-walk": {
+      "key": "boss-10-walk",
+      "frames": [
+        {
+          "key": "boss-10",
+          "frame": "2"
+        },
+        {
+          "key": "boss-10",
+          "frame": "3"
+        },
+        {
+          "key": "boss-10",
+          "frame": "4"
+        },
+        {
+          "key": "boss-10",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 9,
+      "repeat": -1
+    },
+    "boss-10-windup": {
+      "key": "boss-10-windup",
+      "frames": [
+        {
+          "key": "boss-10-motion",
+          "frame": "1"
+        },
+        {
+          "key": "boss-10",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 5,
+      "repeat": 0
+    },
+    "boss-10-attack": {
+      "key": "boss-10-attack",
+      "frames": [
+        {
+          "key": "boss-10",
+          "frame": "7"
+        },
+        {
+          "key": "boss-10-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-10",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 12.5,
+      "repeat": 0
+    },
+    "boss-10-charge": {
+      "key": "boss-10-charge",
+      "frames": [
+        {
+          "key": "boss-10",
+          "frame": "8"
+        },
+        {
+          "key": "boss-10-motion",
+          "frame": "3"
+        }
+      ],
+      "frameRate": 12,
+      "repeat": -1
+    },
+    "boss-10-hurt": {
+      "key": "boss-10-hurt",
+      "frames": [
+        {
+          "key": "boss-10",
+          "frame": "9"
+        },
+        {
+          "key": "boss-10-motion",
+          "frame": "4"
+        },
+        {
+          "key": "boss-10-motion",
+          "frame": "5"
+        }
+      ],
+      "frameRate": 11.54,
+      "repeat": 0
+    },
+    "boss-10-down": {
+      "key": "boss-10-down",
+      "frames": [
+        {
+          "key": "boss-10-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-10-dead": {
+      "key": "boss-10-dead",
+      "frames": [
+        {
+          "key": "boss-10-motion",
+          "frame": "6"
+        }
+      ],
+      "frameRate": 1,
+      "repeat": 0
+    },
+    "boss-10-getup": {
+      "key": "boss-10-getup",
+      "frames": [
+        {
+          "key": "boss-10",
+          "frame": "11"
+        },
+        {
+          "key": "boss-10-motion",
+          "frame": "7"
+        },
+        {
+          "key": "boss-10",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-10-shoot": {
+      "key": "boss-10-shoot",
+      "frames": [
+        {
+          "key": "boss-10",
+          "frame": "12"
+        },
+        {
+          "key": "boss-10-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-10",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 10,
+      "repeat": 0
+    },
+    "boss-10-slam": {
+      "key": "boss-10-slam",
+      "frames": [
+        {
+          "key": "boss-10",
+          "frame": "13"
+        },
+        {
+          "key": "boss-10-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-10",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6.67,
+      "repeat": 0
+    },
+    "boss-10-summon": {
+      "key": "boss-10-summon",
+      "frames": [
+        {
+          "key": "boss-10",
+          "frame": "14"
+        },
+        {
+          "key": "boss-10-motion",
+          "frame": "0"
+        },
+        {
+          "key": "boss-10",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 6,
+      "repeat": 0
+    },
+    "boss-10-special": {
+      "key": "boss-10-special",
+      "frames": [
+        {
+          "key": "boss-10",
+          "frame": "15"
+        },
+        {
+          "key": "boss-10-motion",
+          "frame": "2"
+        },
+        {
+          "key": "boss-10",
+          "frame": "0"
+        }
+      ],
+      "frameRate": 7.5,
+      "repeat": 0
+    }
+  },
+  "textures": {
+    "axel-riff": {
+      "image": "assets/characters/axel/axel-sheet.png",
+      "atlas": "assets/characters/axel/axel-atlas.json"
+    },
+    "axel-dash": {
+      "image": "assets/characters/axel/axel-dash-sheet.png",
+      "atlas": "assets/characters/axel/axel-dash-atlas.json"
+    },
+    "axel-motion": {
+      "image": "assets/characters/axel/axel-motion.png",
+      "atlas": "assets/characters/axel/axel-motion-atlas.json"
+    },
+    "enemy-punk": {
+      "image": "assets/characters/punk/punk-sheet.png",
+      "atlas": "assets/characters/punk/punk-atlas.json"
+    },
+    "enemy-punk-motion": {
+      "image": "assets/characters/punk/punk-motion.png",
+      "atlas": "assets/characters/punk/punk-motion-atlas.json"
+    },
+    "enemy-punk-blue": {
+      "image": "assets/characters/punk-blue/punk-blue-sheet.png",
+      "atlas": "assets/characters/punk-blue/punk-blue-atlas.json"
+    },
+    "enemy-punk-blue-motion": {
+      "image": "assets/characters/punk-blue/punk-blue-motion.png",
+      "atlas": "assets/characters/punk-blue/punk-blue-motion-atlas.json"
+    },
+    "enemy-punk-red": {
+      "image": "assets/characters/punk-red/punk-red-sheet.png",
+      "atlas": "assets/characters/punk-red/punk-red-atlas.json"
+    },
+    "enemy-punk-red-motion": {
+      "image": "assets/characters/punk-red/punk-red-motion.png",
+      "atlas": "assets/characters/punk-red/punk-red-motion-atlas.json"
+    },
+    "boss-1": {
+      "image": "assets/characters/sid/sid-sheet.png",
+      "atlas": "assets/characters/sid/sid-atlas.json"
+    },
+    "boss-1-motion": {
+      "image": "assets/characters/sid/sid-motion.png",
+      "atlas": "assets/characters/sid/sid-motion-atlas.json"
+    },
+    "enemy-mohawk": {
+      "image": "assets/characters/mohawk/mohawk-sheet.png",
+      "atlas": "assets/characters/mohawk/mohawk-atlas.json"
+    },
+    "enemy-mohawk-motion": {
+      "image": "assets/characters/mohawk/mohawk-motion.png",
+      "atlas": "assets/characters/mohawk/mohawk-motion-atlas.json"
+    },
+    "enemy-chain": {
+      "image": "assets/characters/chain/chain-sheet.png",
+      "atlas": "assets/characters/chain/chain-atlas.json"
+    },
+    "enemy-chain-motion": {
+      "image": "assets/characters/chain/chain-motion.png",
+      "atlas": "assets/characters/chain/chain-motion-atlas.json"
+    },
+    "enemy-skinhead": {
+      "image": "assets/characters/skinhead/skinhead-sheet.png",
+      "atlas": "assets/characters/skinhead/skinhead-atlas.json"
+    },
+    "enemy-skinhead-motion": {
+      "image": "assets/characters/skinhead/skinhead-motion.png",
+      "atlas": "assets/characters/skinhead/skinhead-motion-atlas.json"
+    },
+    "enemy-thrower": {
+      "image": "assets/characters/thrower/thrower-sheet.png",
+      "atlas": "assets/characters/thrower/thrower-atlas.json"
+    },
+    "enemy-thrower-motion": {
+      "image": "assets/characters/thrower/thrower-motion.png",
+      "atlas": "assets/characters/thrower/thrower-motion-atlas.json"
+    },
+    "boss-2": {
+      "image": "assets/characters/boss-2/boss-2-sheet.png",
+      "atlas": "assets/characters/boss-2/boss-2-atlas.json"
+    },
+    "boss-2-motion": {
+      "image": "assets/characters/boss-2/boss-2-motion.png",
+      "atlas": "assets/characters/boss-2/boss-2-motion-atlas.json"
+    },
+    "boss-3": {
+      "image": "assets/characters/boss-3/boss-3-sheet.png",
+      "atlas": "assets/characters/boss-3/boss-3-atlas.json"
+    },
+    "boss-3-motion": {
+      "image": "assets/characters/boss-3/boss-3-motion.png",
+      "atlas": "assets/characters/boss-3/boss-3-motion-atlas.json"
+    },
+    "boss-4": {
+      "image": "assets/characters/boss-4/boss-4-sheet.png",
+      "atlas": "assets/characters/boss-4/boss-4-atlas.json"
+    },
+    "boss-4-motion": {
+      "image": "assets/characters/boss-4/boss-4-motion.png",
+      "atlas": "assets/characters/boss-4/boss-4-motion-atlas.json"
+    },
+    "boss-5": {
+      "image": "assets/characters/boss-5/boss-5-sheet.png",
+      "atlas": "assets/characters/boss-5/boss-5-atlas.json"
+    },
+    "boss-5-motion": {
+      "image": "assets/characters/boss-5/boss-5-motion.png",
+      "atlas": "assets/characters/boss-5/boss-5-motion-atlas.json"
+    },
+    "boss-6": {
+      "image": "assets/characters/boss-6/boss-6-sheet.png",
+      "atlas": "assets/characters/boss-6/boss-6-atlas.json"
+    },
+    "boss-6-motion": {
+      "image": "assets/characters/boss-6/boss-6-motion.png",
+      "atlas": "assets/characters/boss-6/boss-6-motion-atlas.json"
+    },
+    "boss-7": {
+      "image": "assets/characters/boss-7/boss-7-sheet.png",
+      "atlas": "assets/characters/boss-7/boss-7-atlas.json"
+    },
+    "boss-7-motion": {
+      "image": "assets/characters/boss-7/boss-7-motion.png",
+      "atlas": "assets/characters/boss-7/boss-7-motion-atlas.json"
+    },
+    "boss-8": {
+      "image": "assets/characters/boss-8/boss-8-sheet.png",
+      "atlas": "assets/characters/boss-8/boss-8-atlas.json"
+    },
+    "boss-8-motion": {
+      "image": "assets/characters/boss-8/boss-8-motion.png",
+      "atlas": "assets/characters/boss-8/boss-8-motion-atlas.json"
+    },
+    "boss-9": {
+      "image": "assets/characters/boss-9/boss-9-sheet.png",
+      "atlas": "assets/characters/boss-9/boss-9-atlas.json"
+    },
+    "boss-9-motion": {
+      "image": "assets/characters/boss-9/boss-9-motion.png",
+      "atlas": "assets/characters/boss-9/boss-9-motion-atlas.json"
+    },
+    "boss-10": {
+      "image": "assets/characters/boss-10/boss-10-sheet.png",
+      "atlas": "assets/characters/boss-10/boss-10-atlas.json"
+    },
+    "boss-10-motion": {
+      "image": "assets/characters/boss-10/boss-10-motion.png",
+      "atlas": "assets/characters/boss-10/boss-10-motion-atlas.json"
+    }
+  },
+  "characters": {
+    "axel": {
+      "prefix": "axel",
+      "texture": "axel-riff"
+    },
+    "punk": {
+      "prefix": "enemy-punk",
+      "texture": "enemy-punk"
+    },
+    "punk-blue": {
+      "prefix": "enemy-punk-blue",
+      "texture": "enemy-punk-blue"
+    },
+    "punk-red": {
+      "prefix": "enemy-punk-red",
+      "texture": "enemy-punk-red"
+    },
+    "sid": {
+      "prefix": "boss-1",
+      "texture": "boss-1"
+    },
+    "mohawk": {
+      "prefix": "enemy-mohawk",
+      "texture": "enemy-mohawk"
+    },
+    "chain": {
+      "prefix": "enemy-chain",
+      "texture": "enemy-chain"
+    },
+    "skinhead": {
+      "prefix": "enemy-skinhead",
+      "texture": "enemy-skinhead"
+    },
+    "thrower": {
+      "prefix": "enemy-thrower",
+      "texture": "enemy-thrower"
+    },
+    "boss-2": {
+      "prefix": "boss-2",
+      "texture": "boss-2"
+    },
+    "boss-3": {
+      "prefix": "boss-3",
+      "texture": "boss-3"
+    },
+    "boss-4": {
+      "prefix": "boss-4",
+      "texture": "boss-4"
+    },
+    "boss-5": {
+      "prefix": "boss-5",
+      "texture": "boss-5"
+    },
+    "boss-6": {
+      "prefix": "boss-6",
+      "texture": "boss-6"
+    },
+    "boss-7": {
+      "prefix": "boss-7",
+      "texture": "boss-7"
+    },
+    "boss-8": {
+      "prefix": "boss-8",
+      "texture": "boss-8"
+    },
+    "boss-9": {
+      "prefix": "boss-9",
+      "texture": "boss-9"
+    },
+    "boss-10": {
+      "prefix": "boss-10",
+      "texture": "boss-10"
+    }
+  }
+}

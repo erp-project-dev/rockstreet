@@ -1,0 +1,172 @@
+{
+  "frames": {
+    "0": {
+      "frame": {
+        "x": 39,
+        "y": 38,
+        "w": 309,
+        "h": 419
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 157,
+        "y": 206,
+        "w": 309,
+        "h": 419
+      },
+      "sourceSize": {
+        "w": 679,
+        "h": 679
+      }
+    },
+    "1": {
+      "frame": {
+        "x": 497,
+        "y": 53,
+        "w": 327,
+        "h": 404
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 171,
+        "y": 221,
+        "w": 327,
+        "h": 404
+      },
+      "sourceSize": {
+        "w": 679,
+        "h": 679
+      }
+    },
+    "2": {
+      "frame": {
+        "x": 928,
+        "y": 54,
+        "w": 333,
+        "h": 404
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 159,
+        "y": 221,
+        "w": 333,
+        "h": 404
+      },
+      "sourceSize": {
+        "w": 679,
+        "h": 679
+      }
+    },
+    "3": {
+      "frame": {
+        "x": 1375,
+        "y": 82,
+        "w": 371,
+        "h": 374
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 162,
+        "y": 251,
+        "w": 371,
+        "h": 374
+      },
+      "sourceSize": {
+        "w": 679,
+        "h": 679
+      }
+    },
+    "4": {
+      "frame": {
+        "x": 70,
+        "y": 499,
+        "w": 306,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 188,
+        "y": 265,
+        "w": 306,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 679,
+        "h": 679
+      }
+    },
+    "5": {
+      "frame": {
+        "x": 477,
+        "y": 526,
+        "w": 317,
+        "h": 333
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 151,
+        "y": 292,
+        "w": 317,
+        "h": 333
+      },
+      "sourceSize": {
+        "w": 679,
+        "h": 679
+      }
+    },
+    "6": {
+      "frame": {
+        "x": 848,
+        "y": 739,
+        "w": 532,
+        "h": 125
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 79,
+        "y": 500,
+        "w": 532,
+        "h": 125
+      },
+      "sourceSize": {
+        "w": 679,
+        "h": 679
+      }
+    },
+    "7": {
+      "frame": {
+        "x": 1434,
+        "y": 567,
+        "w": 295,
+        "h": 301
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 221,
+        "y": 324,
+        "w": 295,
+        "h": 301
+      },
+      "sourceSize": {
+        "w": 679,
+        "h": 679
+      }
+    }
+  },
+  "meta": {
+    "image": "punk-blue-motion.png",
+    "size": {
+      "w": 1774,
+      "h": 887
+    },
+    "scale": "1"
+  }
+}

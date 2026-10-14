@@ -1,0 +1,252 @@
+{
+  "frames": {
+    "0": {
+      "frame": {
+        "x": 55,
+        "y": 54,
+        "w": 220,
+        "h": 309
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 130,
+        "y": 162,
+        "w": 220,
+        "h": 309
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      }
+    },
+    "1": {
+      "frame": {
+        "x": 469,
+        "y": 53,
+        "w": 159,
+        "h": 311
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 182,
+        "y": 160,
+        "w": 159,
+        "h": 311
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      }
+    },
+    "2": {
+      "frame": {
+        "x": 820,
+        "y": 65,
+        "w": 207,
+        "h": 298
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 171,
+        "y": 173,
+        "w": 207,
+        "h": 298
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      }
+    },
+    "3": {
+      "frame": {
+        "x": 1192,
+        "y": 61,
+        "w": 221,
+        "h": 301
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 181,
+        "y": 170,
+        "w": 221,
+        "h": 301
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      }
+    },
+    "4": {
+      "frame": {
+        "x": 60,
+        "y": 415,
+        "w": 236,
+        "h": 297
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 135,
+        "y": 174,
+        "w": 236,
+        "h": 297
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      }
+    },
+    "5": {
+      "frame": {
+        "x": 454,
+        "y": 419,
+        "w": 224,
+        "h": 289
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 167,
+        "y": 182,
+        "w": 224,
+        "h": 289
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      }
+    },
+    "6": {
+      "frame": {
+        "x": 814,
+        "y": 439,
+        "w": 231,
+        "h": 269
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 165,
+        "y": 202,
+        "w": 231,
+        "h": 269
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      }
+    },
+    "7": {
+      "frame": {
+        "x": 1153,
+        "y": 436,
+        "w": 268,
+        "h": 269
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 142,
+        "y": 202,
+        "w": 268,
+        "h": 269
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      }
+    },
+    "8": {
+      "frame": {
+        "x": 56,
+        "y": 771,
+        "w": 259,
+        "h": 262
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 131,
+        "y": 209,
+        "w": 259,
+        "h": 262
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      }
+    },
+    "9": {
+      "frame": {
+        "x": 459,
+        "y": 773,
+        "w": 211,
+        "h": 262
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 172,
+        "y": 209,
+        "w": 211,
+        "h": 262
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      }
+    },
+    "10": {
+      "frame": {
+        "x": 779,
+        "y": 919,
+        "w": 337,
+        "h": 92
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 130,
+        "y": 379,
+        "w": 337,
+        "h": 92
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      }
+    },
+    "11": {
+      "frame": {
+        "x": 1202,
+        "y": 808,
+        "w": 181,
+        "h": 219
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 191,
+        "y": 252,
+        "w": 181,
+        "h": 219
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 512
+      }
+    }
+  },
+  "meta": {
+    "image": "punk-sheet.png",
+    "size": {
+      "w": 1448,
+      "h": 1086
+    },
+    "scale": "1"
+  }
+}

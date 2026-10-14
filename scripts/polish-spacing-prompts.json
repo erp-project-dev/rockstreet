@@ -1,0 +1,25 @@
+{
+  "tool": "image_gen built-in",
+  "fixes": [
+    {
+      "name": "axel",
+      "prompt": "Edit target: supplied supplemental animation sheet. Preserve EXACT character design, clothing, face, weapon, colors, pose ORDER and all 12 poses. Change ONLY the sheet spacing and uniform figure scale. Re-layout as exactly FOUR columns by 3 rows on regular transparent cells, with wide empty gutters. Make EVERY figure uniformly smaller: upright body only 45 percent of cell height. ALL complete silhouettes, including guitars/hair/lying boots, must fit INSIDE the central 75 percent of each cell WIDTH and 75 percent HEIGHT. NO figure may cross into a neighboring cell, and no bounding rectangles may overlap. Keep same physical body proportions and identical scale between upright and lying poses. Soles at90% cell baseline. Real transparent background, no guides/text/shadows/effects. This is a technical spacing correction, not a redesign. Use larger canvas if needed to retain detail."
+    },
+    {
+      "name": "skinhead",
+      "prompt": "Edit target: supplied supplemental animation sheet. Preserve EXACT character design, clothing, face, weapon, colors, pose ORDER and all 8 poses. Change ONLY the sheet spacing and uniform figure scale. Re-layout as exactly FOUR columns by 2 rows on regular transparent cells, with wide empty gutters. Make EVERY figure uniformly smaller: upright body only 55 percent of cell height. ALL complete silhouettes, including guitars/hair/lying boots, must fit INSIDE the central 75 percent of each cell WIDTH and 75 percent HEIGHT. NO figure may cross into a neighboring cell, and no bounding rectangles may overlap. Keep same physical body proportions and identical scale between upright and lying poses. Soles at90% cell baseline. Real transparent background, no guides/text/shadows/effects. This is a technical spacing correction, not a redesign. Use larger canvas if needed to retain detail."
+    },
+    {
+      "name": "boss-3",
+      "prompt": "Edit target: supplied supplemental animation sheet. Preserve EXACT character design, clothing, face, weapon, colors, pose ORDER and all 8 poses. Change ONLY the sheet spacing and uniform figure scale. Re-layout as exactly FOUR columns by 2 rows on regular transparent cells, with wide empty gutters. Make EVERY figure uniformly smaller: upright body only 55 percent of cell height. ALL complete silhouettes, including guitars/hair/lying boots, must fit INSIDE the central 75 percent of each cell WIDTH and 75 percent HEIGHT. NO figure may cross into a neighboring cell, and no bounding rectangles may overlap. Keep same physical body proportions and identical scale between upright and lying poses. Soles at90% cell baseline. Real transparent background, no guides/text/shadows/effects. This is a technical spacing correction, not a redesign. Use larger canvas if needed to retain detail."
+    },
+    {
+      "name": "boss-7",
+      "prompt": "Edit target: supplied supplemental animation sheet. Preserve EXACT character design, clothing, face, weapon, colors, pose ORDER and all 8 poses. Change ONLY the sheet spacing and uniform figure scale. Re-layout as exactly FOUR columns by 2 rows on regular transparent cells, with wide empty gutters. Make EVERY figure uniformly smaller: upright body only 55 percent of cell height. ALL complete silhouettes, including guitars/hair/lying boots, must fit INSIDE the central 75 percent of each cell WIDTH and 75 percent HEIGHT. NO figure may cross into a neighboring cell, and no bounding rectangles may overlap. Keep same physical body proportions and identical scale between upright and lying poses. Soles at90% cell baseline. Real transparent background, no guides/text/shadows/effects. This is a technical spacing correction, not a redesign. Use larger canvas if needed to retain detail."
+    },
+    {
+      "name": "boss-9",
+      "prompt": "Edit target: supplied animation sheet. Preserve exact human character identity, blue ornate jacket, blue electric guitar, all eight poses and their order. Change ONLY spacing and uniform scale. Four columns TWO rows on genuine transparent background. Shrink all characters equally so upright body occupies55% of cell height. Every silhouette including hair, guitar, boots must fit entirely inside central75% of cell width and height; no bounding rectangle may overlap another. Empty transparent gutters in BOTH directions. Soles at90% baseline eachcell. Same body proportions and scale across upright and lying poses. No text/shadows/effects, no redesign."
+    }
+  ]
+}

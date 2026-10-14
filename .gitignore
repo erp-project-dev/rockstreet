@@ -1,0 +1,10 @@
+# Dependencias y build
+node_modules
+dist
+
+# Salidas temporales de QA / generación de assets (no son parte del juego)
+output
+
+# Sistema
+.DS_Store
+*.log

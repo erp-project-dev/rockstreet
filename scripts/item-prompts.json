@@ -1,0 +1,37 @@
+{
+  "tool": "image_gen built-in",
+  "assets": [
+    {
+      "file": "public/assets/items/coin.png",
+      "prompt": "Use case: stylized-concept. Production collectible item sprite for RockStreet, 1986 rock beat-em-up. ONE centered isolated object on actual transparent alpha background, square composition. Cinematic painted game illustration with realistic materials, strong dark outline, simple bold recognizable silhouette readable at 48 pixels. Object fills central 75% with transparent margins, slight three-quarter view, controlled glossy highlights. No ground, no cast shadow, no panels, no other objects, no watermark. A thick golden arcade coin, embossed electric lightning symbol on its face, ridged metal edge, warm gold shine. No letters or numerals."
+    },
+    {
+      "file": "public/assets/items/bill.png",
+      "prompt": "Use case: stylized-concept. Production collectible item sprite for RockStreet, 1986 rock beat-em-up. ONE centered isolated object on actual transparent alpha background, square composition. Cinematic painted game illustration with realistic materials, strong dark outline, simple bold recognizable silhouette readable at 48 pixels. Object fills central 75% with transparent margins, slight three-quarter view, controlled glossy highlights. No ground, no cast shadow, no panels, no other objects, no watermark. A single folded green fictional cash banknote, worn paper, dark green ornamental border and simple circular seal. Rectangular horizontal silhouette. No portraits, legible letters or numerals."
+    },
+    {
+      "file": "public/assets/items/cash.png",
+      "prompt": "Use case: stylized-concept. Production collectible item sprite for RockStreet, 1986 rock beat-em-up. ONE centered isolated object on actual transparent alpha background, square composition. Cinematic painted game illustration with realistic materials, strong dark outline, simple bold recognizable silhouette readable at 48 pixels. Object fills central 75% with transparent margins, slight three-quarter view, controlled glossy highlights. No ground, no cast shadow, no panels, no other objects, no watermark. A short thick stack of green fictional cash banknotes bound by a gold paper strap, worn paper edges, horizontal silhouette. No readable lettering or numerals."
+    },
+    {
+      "file": "public/assets/items/heartSmall.png",
+      "prompt": "Use case: stylized-concept. Production collectible item sprite for RockStreet, 1986 rock beat-em-up. ONE centered isolated object on actual transparent alpha background, square composition. Cinematic painted game illustration with realistic materials, strong dark outline, simple bold recognizable silhouette readable at 48 pixels. Object fills central 75% with transparent margins, slight three-quarter view, controlled glossy highlights. No ground, no cast shadow, no panels, no other objects, no watermark. One compact vivid red heart health pickup, sculpted glossy enamel heart with subtle scratches, luminous warm highlights. Clear classic heart silhouette, no anatomical realism, no frame or text."
+    },
+    {
+      "file": "public/assets/items/heartBig.png",
+      "prompt": "Use case: stylized-concept. Production collectible item sprite for RockStreet, 1986 rock beat-em-up. ONE centered isolated object on actual transparent alpha background, square composition. Cinematic painted game illustration with realistic materials, strong dark outline, simple bold recognizable silhouette readable at 48 pixels. Object fills central 75% with transparent margins, slight three-quarter view, controlled glossy highlights. No ground, no cast shadow, no panels, no other objects, no watermark. One large vivid red heart full-health pickup, glossy sculpted red enamel heart with slim silver metal border and small silver wings at sides. Clearly recognizable heart, stronger valuable reward than a plain heart. No text."
+    },
+    {
+      "file": "public/assets/items/energy.png",
+      "prompt": "Use case: stylized-concept. Production collectible item sprite for RockStreet, 1986 rock beat-em-up. ONE centered isolated object on actual transparent alpha background, square composition. Cinematic painted game illustration with realistic materials, strong dark outline, simple bold recognizable silhouette readable at 48 pixels. Object fills central 75% with transparent margins, slight three-quarter view, controlled glossy highlights. No ground, no cast shadow, no panels, no other objects, no watermark. One short vintage cylindrical cyan metal energy-drink can, silver pull tab on top, black lightning bolt on cyan body, scuffed 1980s rock aesthetic. No brand or letters."
+    },
+    {
+      "file": "public/assets/items/extraLife.png",
+      "prompt": "Use case: stylized-concept. Production collectible item sprite for RockStreet, 1986 rock beat-em-up. ONE centered isolated object on actual transparent alpha background, square composition. Cinematic painted game illustration with realistic materials, strong dark outline, simple bold recognizable silhouette readable at 48 pixels. Object fills central 75% with transparent margins, slight three-quarter view, controlled glossy highlights. No ground, no cast shadow, no panels, no other objects, no watermark. One gold laminated backstage VIP pass with magenta neck lanyard and metal clip, bold central magenta star. Concert all-access badge aesthetic, distinct from guitar pick. Only exact text VIP, large bold readable. No other lettering."
+    },
+    {
+      "file": "public/assets/items/goldRecord.png",
+      "prompt": "Use case: stylized-concept. Production collectible item sprite for RockStreet, 1986 rock beat-em-up. ONE centered isolated object on actual transparent alpha background, square composition. Cinematic painted game illustration with realistic materials, strong dark outline, simple bold recognizable silhouette readable at 48 pixels. Object fills central 75% with transparent margins, slight three-quarter view, controlled glossy highlights. No ground, no cast shadow, no panels, no other objects, no watermark. One gold vinyl record reward, metallic concentric grooves, small red center label, black spindle hole, bright gold reflections, slight three-quarter angle. No text. Clearly a round music record, distinct from a small coin."
+    }
+  ]
+}

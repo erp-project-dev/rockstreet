@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "0": {
+      "frame": {
+        "x": 125,
+        "y": 68,
+        "w": 1264,
+        "h": 880
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 125,
+        "y": 68,
+        "w": 1264,
+        "h": 880
+      },
+      "sourceSize": {
+        "w": 1536,
+        "h": 1024
+      }
+    }
+  },
+  "meta": {
+    "image": "wave.png",
+    "size": {
+      "w": 1536,
+      "h": 1024
+    },
+    "scale": "1"
+  }
+}

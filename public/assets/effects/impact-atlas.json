@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "0": {
+      "frame": {
+        "x": 94,
+        "y": 19,
+        "w": 1156,
+        "h": 1169
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 94,
+        "y": 19,
+        "w": 1156,
+        "h": 1169
+      },
+      "sourceSize": {
+        "w": 1302,
+        "h": 1208
+      }
+    }
+  },
+  "meta": {
+    "image": "impact.png",
+    "size": {
+      "w": 1302,
+      "h": 1208
+    },
+    "scale": "1"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "tool": "image_gen built-in",
+  "assets": [
+    {
+      "file": "public/assets/skills/powerChord.png",
+      "prompt": "Use case: stylized-concept. Asset type: production game ability icon, square transparent PNG, centered isolated asset. RockStreet 1986 rock beat-em-up, cinematic painted illustration with realistic materials, crisp dark outlines and controlled bright edge highlights. A red guitar pick striking six taut metallic electric-guitar strings, a single bold cyan expanding sonic arc behind it. Recognizable guitar action, clean powerful silhouette. Object occupies center 75% of canvas, generous transparent margins on all sides. Readable at 48 pixels, simple bold form, no fine clutter. Actual transparent alpha background, no panel, no badge border, no ground shadow, no letters, no words, no watermark. Consistent icon family with red guitar, cyan sound, magenta feedback and gold electricity."
+    },
+    {
+      "file": "public/assets/skills/feedback.png",
+      "prompt": "Use case: stylized-concept. Asset type: production game ability icon, square transparent PNG, centered isolated asset. RockStreet 1986 rock beat-em-up, cinematic painted illustration with realistic materials, crisp dark outlines and controlled bright edge highlights. A compact black vintage guitar amplifier with metallic grille, surrounded by a bold magenta circular shockwave. No knobs too tiny, strong readable silhouette. Object occupies center 75% of canvas, generous transparent margins on all sides. Readable at 48 pixels, simple bold form, no fine clutter. Actual transparent alpha background, no panel, no badge border, no ground shadow, no letters, no words, no watermark. Consistent icon family with red guitar, cyan sound, magenta feedback and gold electricity."
+    },
+    {
+      "file": "public/assets/skills/solo.png",
+      "prompt": "Use case: stylized-concept. Asset type: production game ability icon, square transparent PNG, centered isolated asset. RockStreet 1986 rock beat-em-up, cinematic painted illustration with realistic materials, crisp dark outlines and controlled bright edge highlights. A red double-cutaway electric guitar raised diagonally with two bold golden lightning bolts, heroic electric rock super ability. Object occupies center 75% of canvas, generous transparent margins on all sides. Readable at 48 pixels, simple bold form, no fine clutter. Actual transparent alpha background, no panel, no badge border, no ground shadow, no letters, no words, no watermark. Consistent icon family with red guitar, cyan sound, magenta feedback and gold electricity."
+    },
+    {
+      "file": "public/assets/skills/pick-1.png",
+      "prompt": "Use case: stylized-concept. Asset type: production game ability icon, square transparent PNG, centered isolated asset. RockStreet 1986 rock beat-em-up, cinematic painted illustration with realistic materials, crisp dark outlines and controlled bright edge highlights. ONE classic rounded triangular guitar pick, tip pointing down. Smooth opaque red plastic, small bevel, a single subtle lightning engraving. Object occupies center 75% of canvas, generous transparent margins on all sides. Readable at 48 pixels, simple bold form, no fine clutter. Actual transparent alpha background, no panel, no badge border, no ground shadow, no letters, no words, no watermark. Consistent icon family with red guitar, cyan sound, magenta feedback and gold electricity."
+    },
+    {
+      "file": "public/assets/skills/pick-2.png",
+      "prompt": "Use case: stylized-concept. Asset type: production game ability icon, square transparent PNG, centered isolated asset. RockStreet 1986 rock beat-em-up, cinematic painted illustration with realistic materials, crisp dark outlines and controlled bright edge highlights. ONE classic rounded triangular guitar pick, tip pointing down. Dark cyan nylon with visible fine grippy texture, small bevel, a single subtle lightning engraving. Object occupies center 75% of canvas, generous transparent margins on all sides. Readable at 48 pixels, simple bold form, no fine clutter. Actual transparent alpha background, no panel, no badge border, no ground shadow, no letters, no words, no watermark. Consistent icon family with red guitar, cyan sound, magenta feedback and gold electricity."
+    },
+    {
+      "file": "public/assets/skills/pick-3.png",
+      "prompt": "Use case: stylized-concept. Asset type: production game ability icon, square transparent PNG, centered isolated asset. RockStreet 1986 rock beat-em-up, cinematic painted illustration with realistic materials, crisp dark outlines and controlled bright edge highlights. ONE classic rounded triangular guitar pick, tip pointing down. Amber tortoiseshell celluloid mottled rich warm pattern, small bevel, a single subtle lightning engraving. Object occupies center 75% of canvas, generous transparent margins on all sides. Readable at 48 pixels, simple bold form, no fine clutter. Actual transparent alpha background, no panel, no badge border, no ground shadow, no letters, no words, no watermark. Consistent icon family with red guitar, cyan sound, magenta feedback and gold electricity."
+    },
+    {
+      "file": "public/assets/skills/pick-4.png",
+      "prompt": "Use case: stylized-concept. Asset type: production game ability icon, square transparent PNG, centered isolated asset. RockStreet 1986 rock beat-em-up, cinematic painted illustration with realistic materials, crisp dark outlines and controlled bright edge highlights. ONE classic rounded triangular guitar pick, tip pointing down. Brushed silver steel with strong metallic edges, small bevel, a single subtle lightning engraving. Object occupies center 75% of canvas, generous transparent margins on all sides. Readable at 48 pixels, simple bold form, no fine clutter. Actual transparent alpha background, no panel, no badge border, no ground shadow, no letters, no words, no watermark. Consistent icon family with red guitar, cyan sound, magenta feedback and gold electricity."
+    },
+    {
+      "file": "public/assets/skills/pick-5.png",
+      "prompt": "Use case: stylized-concept. Asset type: production game ability icon, square transparent PNG, centered isolated asset. RockStreet 1986 rock beat-em-up, cinematic painted illustration with realistic materials, crisp dark outlines and controlled bright edge highlights. ONE classic rounded triangular guitar pick, tip pointing down. Polished gold metal with warm golden edge highlights, small bevel, engraved lightning bolt. Premium upgrade. Object occupies center 75% of canvas, generous transparent margins on all sides. Readable at 48 pixels, simple bold form, no fine clutter. Actual transparent alpha background, no panel, no badge border, no ground shadow, no letters, no words, no watermark. Consistent icon family with red guitar, cyan sound, magenta feedback and gold electricity."
+    }
+  ]
+}

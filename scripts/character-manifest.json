@@ -1,0 +1,87 @@
+[
+  {
+    "key": "enemy-punk",
+    "folder": "punk",
+    "frames": 12
+  },
+  {
+    "key": "enemy-punk-blue",
+    "folder": "punk-blue",
+    "frames": 12
+  },
+  {
+    "key": "enemy-punk-red",
+    "folder": "punk-red",
+    "frames": 12
+  },
+  {
+    "key": "boss-1",
+    "folder": "sid",
+    "frames": 12
+  },
+  {
+    "key": "enemy-mohawk",
+    "folder": "mohawk",
+    "frames": 16
+  },
+  {
+    "key": "enemy-chain",
+    "folder": "chain",
+    "frames": 16
+  },
+  {
+    "key": "enemy-skinhead",
+    "folder": "skinhead",
+    "frames": 16
+  },
+  {
+    "key": "enemy-thrower",
+    "folder": "thrower",
+    "frames": 16
+  },
+  {
+    "key": "boss-2",
+    "folder": "boss-2",
+    "frames": 16
+  },
+  {
+    "key": "boss-3",
+    "folder": "boss-3",
+    "frames": 16
+  },
+  {
+    "key": "boss-4",
+    "folder": "boss-4",
+    "frames": 16
+  },
+  {
+    "key": "boss-5",
+    "folder": "boss-5",
+    "frames": 16
+  },
+  {
+    "key": "boss-6",
+    "folder": "boss-6",
+    "frames": 16
+  },
+  {
+    "key": "boss-7",
+    "folder": "boss-7",
+    "frames": 16
+  },
+  {
+    "key": "boss-8",
+    "folder": "boss-8",
+    "frames": 16
+  },
+  {
+    "key": "boss-9",
+    "folder": "boss-9",
+    "frames": 16
+  },
+  {
+    "key": "boss-10",
+    "folder": "boss-10",
+    "frames": 16
+  }
+]

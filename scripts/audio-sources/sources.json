@@ -1,0 +1,40 @@
+[
+  {
+    "author": "Kenney",
+    "page": "https://kenney.nl/assets/impact-sounds",
+    "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+    "license": "CC0"
+  },
+  {
+    "name": "chord-e",
+    "author": "stomachache",
+    "page": "https://freesound.org/people/stomachache/sounds/49270/",
+    "download": "https://cdn.freesound.org/previews/49/49270_177850-hq.mp3",
+    "license": "CC0",
+    "format": "HQ MP3 preview, not original WAV"
+  },
+  {
+    "name": "chord-b",
+    "author": "stomachache",
+    "page": "https://freesound.org/people/stomachache/sounds/49273/",
+    "download": "https://cdn.freesound.org/previews/49/49273_177850-hq.mp3",
+    "license": "CC0",
+    "format": "HQ MP3 preview, not original WAV"
+  },
+  {
+    "name": "chord-fs",
+    "author": "stomachache",
+    "page": "https://freesound.org/people/stomachache/sounds/49279/",
+    "download": "https://cdn.freesound.org/previews/49/49279_177850-hq.mp3",
+    "license": "CC0",
+    "format": "HQ MP3 preview, not original WAV"
+  },
+  {
+    "name": "riff",
+    "author": "Volrak",
+    "page": "https://freesound.org/people/Volrak/sounds/328169/",
+    "download": "https://cdn.freesound.org/previews/328/328169_5672915-hq.mp3",
+    "license": "CC0",
+    "format": "HQ MP3 preview, not original WAV"
+  }
+]

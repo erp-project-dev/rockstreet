@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "0": {
+      "frame": {
+        "x": 281,
+        "y": 4,
+        "w": 507,
+        "h": 1527
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 281,
+        "y": 4,
+        "w": 507,
+        "h": 1527
+      },
+      "sourceSize": {
+        "w": 1024,
+        "h": 1536
+      }
+    }
+  },
+  "meta": {
+    "image": "bolt.png",
+    "size": {
+      "w": 1024,
+      "h": 1536
+    },
+    "scale": "1"
+  }
+}

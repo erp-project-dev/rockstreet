@@ -1,0 +1,172 @@
+{
+  "frames": {
+    "0": {
+      "frame": {
+        "x": 51,
+        "y": 17,
+        "w": 365,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 220,
+        "y": 278,
+        "w": 365,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 782,
+        "h": 782
+      }
+    },
+    "1": {
+      "frame": {
+        "x": 504,
+        "y": 19,
+        "w": 382,
+        "h": 439
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 230,
+        "y": 280,
+        "w": 382,
+        "h": 439
+      },
+      "sourceSize": {
+        "w": 782,
+        "h": 782
+      }
+    },
+    "2": {
+      "frame": {
+        "x": 945,
+        "y": 26,
+        "w": 378,
+        "h": 432
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 227,
+        "y": 287,
+        "w": 378,
+        "h": 432
+      },
+      "sourceSize": {
+        "w": 782,
+        "h": 782
+      }
+    },
+    "3": {
+      "frame": {
+        "x": 1352,
+        "y": 30,
+        "w": 414,
+        "h": 427
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 191,
+        "y": 292,
+        "w": 414,
+        "h": 427
+      },
+      "sourceSize": {
+        "w": 782,
+        "h": 782
+      }
+    },
+    "4": {
+      "frame": {
+        "x": 38,
+        "y": 470,
+        "w": 345,
+        "h": 387
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 207,
+        "y": 332,
+        "w": 345,
+        "h": 387
+      },
+      "sourceSize": {
+        "w": 782,
+        "h": 782
+      }
+    },
+    "5": {
+      "frame": {
+        "x": 493,
+        "y": 500,
+        "w": 377,
+        "h": 359
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 219,
+        "y": 360,
+        "w": 377,
+        "h": 359
+      },
+      "sourceSize": {
+        "w": 782,
+        "h": 782
+      }
+    },
+    "6": {
+      "frame": {
+        "x": 877,
+        "y": 661,
+        "w": 540,
+        "h": 199
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 159,
+        "y": 520,
+        "w": 540,
+        "h": 199
+      },
+      "sourceSize": {
+        "w": 782,
+        "h": 782
+      }
+    },
+    "7": {
+      "frame": {
+        "x": 1447,
+        "y": 519,
+        "w": 322,
+        "h": 325
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 286,
+        "y": 394,
+        "w": 322,
+        "h": 325
+      },
+      "sourceSize": {
+        "w": 782,
+        "h": 782
+      }
+    }
+  },
+  "meta": {
+    "image": "boss-5-motion.png",
+    "size": {
+      "w": 1774,
+      "h": 887
+    },
+    "scale": "1"
+  }
+}

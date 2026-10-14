@@ -1,0 +1,32 @@
+{
+  "frames": {
+    "0": {
+      "frame": {
+        "x": 219,
+        "y": 29,
+        "w": 922,
+        "h": 1154
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 219,
+        "y": 29,
+        "w": 922,
+        "h": 1154
+      },
+      "sourceSize": {
+        "w": 1282,
+        "h": 1227
+      }
+    }
+  },
+  "meta": {
+    "image": "note.png",
+    "size": {
+      "w": 1282,
+      "h": 1227
+    },
+    "scale": "1"
+  }
+}

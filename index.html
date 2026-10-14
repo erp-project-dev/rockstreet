@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RockStreet</title>
+    <link rel="icon" href="data:," />
+    <!-- Fuentes incluidas en el proyecto (OFL, subconjunto latino): no dependen de internet -->
+    <link rel="preload" href="assets/fonts/monoton.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/fonts/audiowide.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/fonts/chakra-petch-500.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/fonts/chakra-petch-700.woff2" as="font" type="font/woff2" crossorigin />
+    <style>
+      @font-face { font-family: 'Monoton'; font-weight: 400; font-display: block; src: url(assets/fonts/monoton.woff2) format('woff2'); }
+      @font-face { font-family: 'Audiowide'; font-weight: 400; font-display: block; src: url(assets/fonts/audiowide.woff2) format('woff2'); }
+      @font-face { font-family: 'Chakra Petch'; font-weight: 500; font-display: block; src: url(assets/fonts/chakra-petch-500.woff2) format('woff2'); }
+      @font-face { font-family: 'Chakra Petch'; font-weight: 700; font-display: block; src: url(assets/fonts/chakra-petch-700.woff2) format('woff2'); }
+      html, body { margin: 0; height: 100%; background: #07040f; overflow: hidden; }
+      #game { width: 100%; height: 100%; }
+    </style>
+  </head>
+  <body>
+    <div id="game"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
